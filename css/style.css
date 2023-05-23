@@ -827,18 +827,19 @@ main {
     flex-direction: column;
     gap: 0.5rem;
     align-items: center;
+    padding: 1rem 1rem 5rem 1rem;
 }
 
-.ubicacion iframe {
-    width: 70rem;
-    height: 30rem;
-    margin: 1rem;
+.ubicacion-iframe {
+    width: 80%;
+    height: 40rem;
+    border-radius: 2rem;
 }
 
 .ubicacion p {
     color: #dddcdc;
     font-size: 1.5rem;
-    padding: 0.1rem 0rem;
+    padding: 0.1rem;
 }
 /* ------------------------------------------------- */
 
