@@ -875,6 +875,11 @@ main {
     .footer-redes {
         gap: 1rem;
     }
+
+    .informacion-galeria {
+        gap: 1rem;
+        padding: 5rem 0.5rem;
+    }
 }
 
 @media only screen and (max-width:1150px) {
@@ -892,6 +897,17 @@ main {
         color: #ffffffc7;
         font-size: 4rem;
         padding: 1rem;
+    }
+
+    .informacion-galeria {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center
+    }
+
+    .informacion-galeria img {
+        width: 70%;
+        height: auto;
     }
 }
 
