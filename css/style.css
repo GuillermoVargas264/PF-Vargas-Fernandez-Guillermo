@@ -671,17 +671,15 @@ main {
 
 .informacion-galeria {
     display: flex;
-    gap: 1rem;
+    gap: 5rem;
     justify-content: center;
-    padding: 2rem;
-
+    padding: 5rem 1rem;
 }
 
 .informacion-galeria img {
     width: 35.5rem;
     height: 23rem;
     object-fit: cover;
-    margin: 0.5rem;
 }
 
 /* ------------------------------------------------- */
