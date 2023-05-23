@@ -129,7 +129,8 @@ main {
 }
 
 .bienvenida h1,
-.titulo-principal h1 {
+.titulo-principal h1,
+.titulo-principal {
     font-size: 3.5rem;
     color: #ffffff;
     font-weight: 500;
@@ -413,6 +414,7 @@ main {
     background-color: #106f8ab6;
     color: #d4d4d4;
 }
+
 /* --------------------------------------- */
 
 /* footer */
@@ -549,12 +551,13 @@ main {
     color: #19A7CE;
     margin: 0rem;
 }
+
 /* ------------------------------ */
 
 /* estilos para productos.html */
 /* main */
 .catalogo {
-        list-style-type: none;
+    list-style-type: none;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
@@ -579,6 +582,7 @@ main {
 .catalogo-seccion-caja3 {
     grid-area: area3;
 }
+
 .catalogo-seccion-caja4 {
     grid-area: area4;
 }
@@ -646,37 +650,41 @@ main {
     border-radius: 2rem;
     text-shadow: 0.25rem 0.15rem 0.1rem #000000;
 }
+
 /* ------------------------------------------------- */
 
 /* estilos para informacion.html */
 /* main */
-/* .informacion {
+.informacion {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
     padding: 1rem 4rem;
-    background-color: #e7e0e6;
     text-align: center;
 }
 
 .informacion p {
-    font-size: 1.5rem;
-    padding: 0.1rem;
-    margin: 1.8rem;
-    color: #000000;
+    font-size: 2.2rem;
+    padding: 1rem;
+    color: #ffffff;
 }
 
-.informacion-img {
-    padding: 1rem 0rem;
-    background-color: #e7e0e6;
-    text-align: center;
-    display: inline-block;
-    width: 100%;
+.informacion-galeria {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding: 2rem;
+
 }
 
-.informacion-img img {
+.informacion-galeria img {
     width: 35.5rem;
-    height: 19rem;
+    height: 23rem;
     object-fit: cover;
     margin: 0.5rem;
 }
+
+/* ------------------------------------------------- */
 
 .contacto {
     background-color: #e7e0e6;
@@ -792,7 +800,7 @@ main {
     padding: 1rem;
     margin: 0rem 1rem;
     display: inline-block;
-} */
+}
 
 /* ------------------------------ */
 
@@ -883,7 +891,7 @@ main {
     }
 
     .footer-redes-link:hover i {
-        color: #595e64c7;
+        color: #ffffffc7;
         font-size: 4rem;
         padding: 1rem;
     }
@@ -896,7 +904,7 @@ main {
     }
 
     .navbar-brand:hover img {
-        width: 11rem;
+        width: 11.1rem;
         padding: 0rem 0rem 0rem 2rem;
     }
 
