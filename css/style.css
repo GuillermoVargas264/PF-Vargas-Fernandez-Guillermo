@@ -695,11 +695,13 @@ main {
         'area1 area1'
         'area2 area3'
         'area4 area5'
-        '..... area5'
+        'area6 area5'
+        'area7 area5'
     ;
     gap: 2rem;
     padding: 2rem 2rem 6rem 2rem;
     justify-items: center;
+    align-items: center;
 }
 
 .contacto-caja1 {
@@ -723,34 +725,10 @@ main {
 
 .contacto-redes-caja4 {
     grid-area: area4;
-    list-style-type: none;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
-    grid-template-areas:
-        'areainterna1 areainterna2'
-        'areainterna3 areainterna4'
-    ;
+    display: flex;
     gap: 3rem;
-    padding: 1rem;
+    padding: 5rem 1rem;
     align-items: center;
-    justify-items: center;
-}
-
-.caja4-arainterna1 {
-    grid-area: areainterna1;
-}
-
-.caja4-arainterna2 {
-    grid-area: areainterna2;
-}
-
-.caja4-arainterna3 {
-    grid-area: areainterna3;
-}
-
-.caja4-arainterna4 {
-    grid-area: areainterna4;
 }
 
 .contacto-redes-link i {
@@ -765,11 +743,13 @@ main {
 
 .contacto-comunicate-caja5 {
     grid-area: area5;
+    border-left: 0.2rem solid #ffffff;
+    padding: 0rem 3rem;
 }
 
 .contacto-comunicate-caja5 p {
     color: #dddcdc;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     text-align: center;
 }
 
@@ -822,25 +802,30 @@ main {
     text-decoration: underline;
 }
 
-.ubicacion {
+.contacto-caja6 {
+    grid-area: area6;
+}
+
+.ubicacion-iframe-caja7 {
+    grid-area: area7;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    align-items: center;
-    padding: 1rem 1rem 5rem 1rem;
 }
 
-.ubicacion-iframe {
-    width: 80%;
-    height: 40rem;
+.ubicacion-iframe-caja7 iframe {
+    width: 65rem;
+    height: 30rem;
     border-radius: 2rem;
 }
 
-.ubicacion p {
+.ubicacion-iframe-caja7 p {
     color: #dddcdc;
     font-size: 1.5rem;
     padding: 0.1rem;
+    text-align: center;
 }
+
 /* ------------------------------------------------- */
 
 /* estilos para para micuenta.html */
