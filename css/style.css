@@ -841,6 +841,7 @@ grid-template-areas:
 'area4 area5'
 ;
 justify-items: center;
+align-items: center;
 padding: 2rem;
 }
 
@@ -853,8 +854,7 @@ padding: 2rem;
 }
 
 .micuenta-acceso {
-    grid-area: area4;
-    padding: 2rem;
+    grid-area: area4;   
 }
 
 .micuenta-caja3 {
@@ -863,9 +863,7 @@ padding: 2rem;
 
 .micuenta-registro {
     grid-area: area5;
-    padding: 2rem;
 }
-
 /* ------------------------------------------------- */
 
 @media only screen and (max-width:1325px) {
