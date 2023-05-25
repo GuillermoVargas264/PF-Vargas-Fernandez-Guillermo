@@ -13,7 +13,7 @@ html {
 
 /* ------------------------------------------------- */
 /* estilos para index.html */
-/* header*/
+/*header*/
 
 .bg-dark {
     height: 12rem;
@@ -686,7 +686,6 @@ main {
 
 /* estilos para contacto.html */
 /* main */
-
 .contacto {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -830,7 +829,6 @@ main {
 
 /* estilos para para micuenta.html */
 /* main */
-
 .micuenta {
     display: grid;
     grid-template-columns: repeat(2 1fr);
