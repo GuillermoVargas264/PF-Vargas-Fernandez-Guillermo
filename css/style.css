@@ -831,23 +831,39 @@ main {
 /* estilos para para micuenta.html */
 /* main */
 
-.mi-cuenta1 {
-    background-color: transparent;
-    padding: 1rem
+.micuenta {
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    grid-template-rows: auto;
+grid-template-areas: 
+'area1 area1'
+'area2 area3'
+'area4 area5'
+;
+justify-items: center;
+padding: 2rem;
 }
 
-.mi-cuenta1 h2 {
-    font-size: 1.5rem;
-    color: #000000;
-    text-decoration: underline;
-    padding: 1rem 0rem;
+.micuenta-caja1 {
+    grid-area: area1;
 }
 
-.mi-cuenta1 form {
-    border: 0.15rem solid #292929;
-    padding: 1rem;
-    margin: 0rem 1rem;
-    display: inline-block;
+.micuenta-caja2 {
+    grid-area: area2;
+}
+
+.micuenta-acceso {
+    grid-area: area4;
+    padding: 2rem;
+}
+
+.micuenta-caja3 {
+    grid-area: area3;
+}
+
+.micuenta-registro {
+    grid-area: area5;
+    padding: 2rem;
 }
 
 /* ------------------------------------------------- */
