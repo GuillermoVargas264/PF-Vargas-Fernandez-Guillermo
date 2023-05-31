@@ -1,0 +1,344 @@
+@media only screen and (max-width:1325px) {
+
+    /* -----para index.html----- */
+
+    .bienvenida h1 {
+        font-size: 2.5rem;
+    }
+
+    .categoria {
+        gap: 5rem;
+    }
+
+    .categoria-partes-nombre {
+        padding: 0.2rem;
+        font-size: 2rem;
+    }
+
+    .categoria-partes-nombre:hover {
+        padding: 0rem;
+        font-size: 2.1rem;
+    }
+
+    .categoria-partes a img {
+        width: 13rem;
+        margin: 0rem;
+    }
+
+    .ofrecemos-partes img {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .ofrecemos-partes p {
+        padding: 0rem 0.5rem;
+        font-size: 1.2rem;
+    }
+
+    .ofrecemos-partes-parrafo {
+        font-size: 1.3rem;
+    }
+
+    .productosindex h4,
+    .productoscatalogo h4 {
+        font-size: 2.8rem;
+    }
+
+    .clases-productos {
+        width: 20rem;
+        height: 36rem;
+    }
+
+    .clases-productos-nombre {
+        font-size: 1.3rem;
+        padding: 1rem 0.5rem;
+    }
+
+    .clases-productos-precio {
+        font-size: 1.7rem;
+        padding: 0.2rem;
+    }
+
+    .clases-productos-envio {
+        font-size: 1rem;
+        padding: 0.2rem;
+    }
+
+    .clases-productos-click1,
+    .clases-productos-click2 {
+        font-size: 1rem;
+        padding: 0.7rem;
+    }
+
+    /* -----para footer----- */
+
+    .footer-redes {
+        gap: 1rem;
+    }
+
+    /* -----para informacion.html----- */
+
+    .informacion-galeria {
+        gap: 1rem;
+        padding: 5rem 0.5rem;
+    }
+}
+
+@media only screen and (max-width:1150px) {
+
+    /* -----para footer----- */
+
+    .footer {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            'area1 area3'
+            'area2 .....'
+            'area4 area4'
+        ;
+    }
+
+    .footer-redes-link:hover i {
+        color: #ffffffc7;
+        font-size: 4rem;
+        padding: 1rem;
+    }
+
+    /* -----para informacion.html----- */
+
+    .informacion-galeria {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center
+    }
+
+    .informacion-galeria img {
+        width: 70%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width:992px) {
+
+    /* ----- para header----- */
+
+    .bg-dark {
+        height: auto;
+    }
+
+    .navbar-brand:hover img {
+        width: 11.1rem;
+        padding: 0rem 0rem 0rem 2rem;
+    }
+
+    .navbar-toggler {
+        border: 0.2rem solid #19a7ce;
+        transition: 0.3s ease-out;
+        box-shadow: none;
+        font-size: 1.5rem;
+        margin: 0rem 1rem;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: 0rem 0rem 1rem #19a7ce;
+    }
+
+    .navbar-dark {
+        --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2825, 167, 206, 0.90%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+
+    .menu-carrito {
+        padding: 0rem 4rem;
+    }
+
+    .dropdown-menu {
+        background-color: transparent;
+        border: none;
+        text-align: left;
+        margin: 0rem 0.6rem;
+    }
+
+    /* -----para index.html----- */
+
+    .ofrecemos-conjuntodepartes {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            'area1 area2'
+            'area3 area4'
+        ;
+        justify-items: start;
+    }
+
+    .productosindex {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            'area1 area1'
+            'area2 area3'
+            'area4 area5'
+        ;
+    }
+
+    /* -----para footer----- */
+
+    .footer {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            'area1 area3'
+            'area2 area2'
+            'area4 area4'
+        ;
+    }
+
+    /* -----para productos.html----- */
+
+    .catalogo {
+        padding: 5rem 2rem;
+        gap: 3rem;
+    }
+
+    .productoscatalogo {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas:
+            'area1 area1 area1'
+            'area2 area3 area4'
+            'area5 area6 area7'
+            'area8 area8 area8'
+        ;
+    }
+}
+
+@media only screen and (max-width:700px) {
+
+    /* -----para index.html----- */
+
+    .bienvenida h1 {
+        font-size: 2rem;
+    }
+
+    .categoria {
+        gap: 3rem;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            'area1 area2'
+            'area3 area4'
+        ;
+    }
+
+    .ofrecemos-partes p {
+        padding: 0.5rem 0.5rem;
+        font-size: 1rem;
+    }
+
+    .ofrecemos-partes-parrafo {
+        font-size: 1.1rem;
+    }
+
+    .novedades h6 {
+        font-size: 2.5rem;
+    }
+
+    .form-control {
+        width: 30rem;
+    }
+
+    /* -----para footer----- */
+
+    .footer {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            'area1 area1'
+            'area2 area2'
+            'area3 area3'
+            'area4 area4'
+        ;
+    }
+
+    /* -----para productos.html----- */
+
+    .catalogo {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            'area1 area2'
+            'area3 area4'
+        ;
+        padding: 5rem 2rem;
+        gap: 5rem 1rem;
+    }
+
+    .productoscatalogo {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas:
+            'area1 area1'
+            'area2 area3'
+            'area4 area5'
+            'area6 area7'
+            'area8 area8'
+        ;
+    }
+
+    .clases-productos-caja8 a {
+        padding: 1.2rem;
+        font-size: 1.8rem;
+    }
+}
+
+@media only screen and (max-width:470px) {
+
+    /* -----para index.html----- */
+
+    .ofrecemos-conjuntodepartes {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+            'area1 area1'
+            'area2 area2'
+            'area3 area3'
+            'area4 area4'
+        ;
+        justify-items: center;
+    }
+
+    .ofrecemos-partes:nth-child(2n+2) {
+        flex-direction: row-reverse;
+    }
+
+    .ofrecemos-partes img {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .ofrecemos-partes p {
+        padding: 0.5rem;
+        font-size: 1.4rem;
+    }
+
+    .ofrecemos-partes-parrafo {
+        font-size: 1.5rem;
+    }
+
+    .clases-productos {
+        width: 17rem;
+        height: 34rem;
+    }
+
+    .clases-productos-click1,
+    .clases-productos-click2 {
+        font-size: 0.7rem;
+        padding: 0.7rem;
+    }
+
+    /* -----para footer----- */
+
+    .footer-redes-link i {
+        font-size: 3.5rem;
+        padding: 0.5rem;
+    }
+
+    /* -----para index.html----- */
+
+    .form-control {
+        width: 25rem;
+    }
+}

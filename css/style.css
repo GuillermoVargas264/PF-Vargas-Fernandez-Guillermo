@@ -10,9 +10,12 @@ html {
   font-size: 10px;
 }
 
-/* ------------------------------------------------- */
-/* estilos para index.html */
-/*header*/
+main {
+  background-image: url("../images/fondodemain.jpg?");
+  background-size: cover;
+  background-color: #3a3a3d;
+}
+
 .bg-dark {
   height: 12rem;
   background-image: url("../images/fondodenav.jpg");
@@ -111,12 +114,414 @@ html {
   margin: 0rem 2.3rem;
 }
 
-/* ------------------------------------------------- */
-/* main */
-main {
-  background-image: url("../images/fondodemain.jpg?");
+.footer {
+  display: grid;
+  background-image: url("../images/fondodenav.jpg");
+  background-position: center;
   background-size: cover;
-  background-color: #3a3a3d;
+  background-attachment: fixed;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "area1 area2 area3" "area4 area4 area4";
+  gap: 1rem;
+  padding: 1rem;
+  justify-items: center;
+  align-items: center;
+}
+
+.footer-logo-caja1 {
+  grid-area: area1;
+}
+
+.footer-redes-caja2 {
+  grid-area: area2;
+}
+
+.footer-horario-caja3 {
+  grid-area: area3;
+}
+
+.footer-logo {
+  display: flex;
+  padding: 1rem;
+  transition: 0.3s ease-out;
+  align-items: center;
+}
+
+.footer-logo:hover {
+  padding: 0rem;
+}
+
+.footer-logo img {
+  width: 30rem;
+  transition: 0.3s ease-out;
+}
+
+.footer-logo:hover img {
+  width: 32rem;
+}
+
+.footer-redes {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  padding: 1rem;
+  list-style-type: none;
+  margin: 0rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-redes-link i {
+  font-size: 4rem;
+  padding: 1rem;
+  transition: 0.2s ease-out;
+}
+
+.footer-redes-link:hover i {
+  font-size: 5rem;
+  padding: 0.5rem;
+}
+
+.bi-youtube {
+  color: #ff0000;
+}
+
+.bi-twitter {
+  color: #1da1f3;
+}
+
+.bi-whatsapp {
+  color: #45c655;
+}
+
+.bi-facebook {
+  color: #1778f2;
+}
+
+.bi-instagram {
+  color: #d94561;
+}
+
+.footer-horario {
+  display: flex;
+  flex-direction: column;
+  border: 0.3rem solid #19A7CE;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.footer-horario h6 {
+  font-size: 2.4rem;
+  color: #19A7CE;
+  text-decoration: underline;
+  padding: 1rem;
+  margin: 0rem;
+}
+
+.footer-horario-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.2rem;
+  list-style-type: none;
+  margin: 0rem;
+}
+
+.footer-horario-list li {
+  font-size: 1.6rem;
+  color: #19A7CE;
+}
+
+.footer p {
+  grid-area: area4;
+  padding: 0rem 1rem 0.5rem 1rem;
+  display: flex;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #19A7CE;
+  margin: 0rem;
+}
+
+/*imports layout*/
+.catalogo {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "area1 area2 area3 area4";
+  justify-items: center;
+  background-color: rgba(0, 0, 0, 0.662745098);
+  padding: 5rem;
+  gap: 1rem;
+  margin: 0rem;
+}
+
+.catalogo-seccion-caja1 {
+  grid-area: area1;
+}
+
+.catalogo-seccion-caja2 {
+  grid-area: area2;
+}
+
+.catalogo-seccion-caja3 {
+  grid-area: area3;
+}
+
+.catalogo-seccion-caja4 {
+  grid-area: area4;
+}
+
+.catalogo-seccion a {
+  color: #ffffff;
+  background-color: rgba(143, 156, 160, 0.4745098039);
+  font-size: 1.7rem;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  text-decoration: none;
+  transition: 0.3s ease-out;
+}
+
+.catalogo-seccion:hover a {
+  background-color: rgba(25, 167, 206, 0.5215686275);
+  text-shadow: 0.25rem 0.25rem 0.2rem #000000;
+  border-radius: 2rem;
+}
+
+.productoscatalogo {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "area1 area1 area1 area1" "area2 area3 area4 area5" "..... area6 area7 ....." "area8 area8 area8 area8";
+  gap: 5rem 1rem;
+  padding: 4rem 2rem;
+  justify-items: center;
+}
+
+.clases-productos-caja6 {
+  grid-area: area6;
+}
+
+.clases-productos-caja7 {
+  grid-area: area7;
+}
+
+.clases-productos-caja8 {
+  grid-area: area8;
+  padding: 2rem;
+  font-size: 1.5rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.clases-productos-caja8 a {
+  padding: 1.5rem;
+  font-size: 2rem;
+  color: #ffffff;
+  border-radius: 1rem;
+  background-color: rgba(25, 167, 206, 0.5215686275);
+  text-decoration: none;
+  transition: 0.3s ease-out;
+}
+
+.clases-productos-caja8:hover a {
+  color: #ffffff;
+  background-color: rgba(25, 167, 206, 0.8);
+  border-radius: 2rem;
+  text-shadow: 0.25rem 0.15rem 0.1rem #000000;
+}
+
+.micuenta {
+  display: grid;
+  grid-template-columns: repeat(2 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "area1 area1" "area2 area3" "area4 area5";
+  justify-items: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.micuenta-caja1 {
+  grid-area: area1;
+}
+
+.micuenta-caja2 {
+  grid-area: area2;
+}
+
+.micuenta-caja3 {
+  grid-area: area3;
+}
+
+.micuenta-acceso {
+  grid-area: area4;
+}
+
+.micuenta-registro {
+  grid-area: area5;
+}
+
+.informacion {
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  padding: 1rem 4rem;
+  text-align: center;
+}
+
+.informacion p {
+  font-size: 2.2rem;
+  padding: 1rem;
+  color: #ffffff;
+}
+
+.informacion-galeria {
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+  padding: 5rem 1rem;
+}
+
+.informacion-galeria img {
+  width: 35.5rem;
+  height: 23rem;
+  object-fit: cover;
+}
+
+.contacto {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "area1 area1" "area2 area3" "area4 area5" "area6 area5" "area7 area5";
+  gap: 2rem;
+  padding: 2rem 2rem 6rem 2rem;
+  justify-items: center;
+  align-items: center;
+}
+
+.contacto-caja1 {
+  grid-area: area1;
+}
+
+.contacto-caja2 {
+  grid-area: area2;
+}
+
+.contacto-caja3 {
+  grid-area: area3;
+}
+
+.titulo-articulo {
+  font-size: 2.3rem;
+  color: #dddcdc;
+  text-decoration: underline;
+  padding: 1rem;
+}
+
+.contacto-redes-caja4 {
+  grid-area: area4;
+  display: flex;
+  gap: 3rem;
+  padding: 5rem 1rem;
+  align-items: center;
+}
+
+.contacto-redes-link i {
+  font-size: 6rem;
+  padding: 1rem;
+  transition: 0.2s ease-out;
+}
+
+.contacto-redes-link:hover i {
+  color: rgba(255, 255, 255, 0.7529411765);
+}
+
+.contacto-comunicate-caja5 {
+  grid-area: area5;
+  border-left: 0.2rem solid #ffffff;
+  padding: 0rem 3rem;
+}
+
+.contacto-comunicate-caja5 p {
+  color: #dddcdc;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.contacto-comunicate-caja5 h3 {
+  color: #dddcdc;
+  font-size: 2.2rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.contacto-comunicate-formulario {
+  text-align: center;
+  color: #dddcdc;
+  font-size: 2rem;
+}
+
+.formulario-registro {
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.formulario-registro input {
+  width: 40rem;
+  height: 3rem;
+}
+
+.formulario-registro-button {
+  background-color: rgba(255, 255, 255, 0.4431372549);
+  padding: 0.5rem;
+  transition: 0.3s ease-out;
+}
+
+.formulario-registro-button:hover {
+  background-color: rgba(25, 167, 206, 0.5215686275);
+  color: #ffffff;
+  text-shadow: 0.15rem 0.15rem 0.1rem #000000;
+  border-radius: 1rem;
+}
+
+.formulario-registro a {
+  text-decoration: none;
+  color: #dddcdc;
+  transition: 0.3s ease-out;
+}
+
+.formulario-registro:hover a {
+  color: rgba(25, 167, 206, 0.9254901961);
+  text-decoration: underline;
+}
+
+.contacto-caja6 {
+  grid-area: area6;
+}
+
+.ubicacion-iframe-caja7 {
+  grid-area: area7;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.ubicacion-iframe-caja7 iframe {
+  width: 65rem;
+  height: 30rem;
+  border-radius: 2rem;
+}
+
+.ubicacion-iframe-caja7 p {
+  color: #dddcdc;
+  font-size: 1.5rem;
+  padding: 0.1rem;
+  text-align: center;
 }
 
 .carousel-control-next-icon,
@@ -405,430 +810,6 @@ main {
   color: #d4d4d4;
 }
 
-/* ------------------------------------------------- */
-/* footer */
-.footer {
-  display: grid;
-  background-image: url("../images/fondodenav.jpg");
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto;
-  grid-template-areas: "area1 area2 area3" "area4 area4 area4";
-  gap: 1rem;
-  padding: 1rem;
-  justify-items: center;
-  align-items: center;
-}
-
-.footer-logo-caja1 {
-  grid-area: area1;
-}
-
-.footer-redes-caja2 {
-  grid-area: area2;
-}
-
-.footer-horario-caja3 {
-  grid-area: area3;
-}
-
-.footer-logo {
-  display: flex;
-  padding: 1rem;
-  transition: 0.3s ease-out;
-  align-items: center;
-}
-
-.footer-logo:hover {
-  padding: 0rem;
-}
-
-.footer-logo img {
-  width: 30rem;
-  transition: 0.3s ease-out;
-}
-
-.footer-logo:hover img {
-  width: 32rem;
-}
-
-.footer-redes {
-  display: flex;
-  flex-direction: row;
-  gap: 2rem;
-  padding: 1rem;
-  list-style-type: none;
-  margin: 0rem;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.footer-redes-link i {
-  font-size: 4rem;
-  padding: 1rem;
-  transition: 0.2s ease-out;
-}
-
-.footer-redes-link:hover i {
-  font-size: 5rem;
-  padding: 0.5rem;
-}
-
-.bi-youtube {
-  color: #ff0000;
-}
-
-.bi-twitter {
-  color: #1da1f3;
-}
-
-.bi-whatsapp {
-  color: #45c655;
-}
-
-.bi-facebook {
-  color: #1778f2;
-}
-
-.bi-instagram {
-  color: #d94561;
-}
-
-.footer-horario {
-  display: flex;
-  flex-direction: column;
-  border: 0.3rem solid #19A7CE;
-  text-align: center;
-  padding: 1rem;
-  margin: 1rem;
-}
-
-.footer-horario h6 {
-  font-size: 2.4rem;
-  color: #19A7CE;
-  text-decoration: underline;
-  padding: 1rem;
-  margin: 0rem;
-}
-
-.footer-horario-list {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1rem;
-  padding: 0.2rem;
-  list-style-type: none;
-  margin: 0rem;
-}
-
-.footer-horario-list li {
-  font-size: 1.6rem;
-  color: #19A7CE;
-}
-
-.footer p {
-  grid-area: area4;
-  padding: 0rem 1rem 0.5rem 1rem;
-  display: flex;
-  text-align: center;
-  font-size: 1.2rem;
-  color: #19A7CE;
-  margin: 0rem;
-}
-
-/* ------------------------------------------------- */
-/* estilos para productos.html */
-/* main */
-.catalogo {
-  list-style-type: none;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: auto;
-  grid-template-areas: "area1 area2 area3 area4";
-  justify-items: center;
-  background-color: rgba(0, 0, 0, 0.662745098);
-  padding: 5rem;
-  gap: 1rem;
-  margin: 0rem;
-}
-
-.catalogo-seccion-caja1 {
-  grid-area: area1;
-}
-
-.catalogo-seccion-caja2 {
-  grid-area: area2;
-}
-
-.catalogo-seccion-caja3 {
-  grid-area: area3;
-}
-
-.catalogo-seccion-caja4 {
-  grid-area: area4;
-}
-
-.catalogo-seccion a {
-  color: #ffffff;
-  background-color: rgba(143, 156, 160, 0.4745098039);
-  font-size: 1.7rem;
-  padding: 1.5rem;
-  border-radius: 1rem;
-  text-decoration: none;
-  transition: 0.3s ease-out;
-}
-
-.catalogo-seccion:hover a {
-  background-color: rgba(25, 167, 206, 0.5215686275);
-  text-shadow: 0.25rem 0.25rem 0.2rem #000000;
-  border-radius: 2rem;
-}
-
-.productoscatalogo {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: auto;
-  grid-template-areas: "area1 area1 area1 area1" "area2 area3 area4 area5" "..... area6 area7 ....." "area8 area8 area8 area8";
-  gap: 5rem 1rem;
-  padding: 4rem 2rem;
-  justify-items: center;
-}
-
-.clases-productos-caja6 {
-  grid-area: area6;
-}
-
-.clases-productos-caja7 {
-  grid-area: area7;
-}
-
-.clases-productos-caja8 {
-  grid-area: area8;
-  padding: 2rem;
-  font-size: 1.5rem;
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.clases-productos-caja8 a {
-  padding: 1.5rem;
-  font-size: 2rem;
-  color: #ffffff;
-  border-radius: 1rem;
-  background-color: rgba(25, 167, 206, 0.5215686275);
-  text-decoration: none;
-  transition: 0.3s ease-out;
-}
-
-.clases-productos-caja8:hover a {
-  color: #ffffff;
-  background-color: rgba(25, 167, 206, 0.8);
-  border-radius: 2rem;
-  text-shadow: 0.25rem 0.15rem 0.1rem #000000;
-}
-
-/* ------------------------------------------------- */
-/* estilos para informacion.html */
-/* main */
-.informacion {
-  display: flex;
-  flex-direction: column;
-  gap: 0rem;
-  padding: 1rem 4rem;
-  text-align: center;
-}
-
-.informacion p {
-  font-size: 2.2rem;
-  padding: 1rem;
-  color: #ffffff;
-}
-
-.informacion-galeria {
-  display: flex;
-  gap: 5rem;
-  justify-content: center;
-  padding: 5rem 1rem;
-}
-
-.informacion-galeria img {
-  width: 35.5rem;
-  height: 23rem;
-  object-fit: cover;
-}
-
-/* ------------------------------------------------- */
-/* estilos para contacto.html */
-/* main */
-.contacto {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto;
-  grid-template-areas: "area1 area1" "area2 area3" "area4 area5" "area6 area5" "area7 area5";
-  gap: 2rem;
-  padding: 2rem 2rem 6rem 2rem;
-  justify-items: center;
-  align-items: center;
-}
-
-.contacto-caja1 {
-  grid-area: area1;
-}
-
-.contacto-caja2 {
-  grid-area: area2;
-}
-
-.contacto-caja3 {
-  grid-area: area3;
-}
-
-.titulo-articulo {
-  font-size: 2.3rem;
-  color: #dddcdc;
-  text-decoration: underline;
-  padding: 1rem;
-}
-
-.contacto-redes-caja4 {
-  grid-area: area4;
-  display: flex;
-  gap: 3rem;
-  padding: 5rem 1rem;
-  align-items: center;
-}
-
-.contacto-redes-link i {
-  font-size: 6rem;
-  padding: 1rem;
-  transition: 0.2s ease-out;
-}
-
-.contacto-redes-link:hover i {
-  color: rgba(255, 255, 255, 0.7529411765);
-}
-
-.contacto-comunicate-caja5 {
-  grid-area: area5;
-  border-left: 0.2rem solid #ffffff;
-  padding: 0rem 3rem;
-}
-
-.contacto-comunicate-caja5 p {
-  color: #dddcdc;
-  font-size: 1.7rem;
-  text-align: center;
-}
-
-.contacto-comunicate-caja5 h3 {
-  color: #dddcdc;
-  font-size: 2.2rem;
-  text-align: center;
-  padding: 1rem;
-}
-
-.contacto-comunicate-formulario {
-  text-align: center;
-  color: #dddcdc;
-  font-size: 2rem;
-}
-
-.formulario-registro {
-  display: flex;
-  padding: 1rem;
-  justify-content: center;
-  gap: 1rem;
-}
-
-.formulario-registro input {
-  width: 40rem;
-  height: 3rem;
-}
-
-.formulario-registro-button {
-  background-color: rgba(255, 255, 255, 0.4431372549);
-  padding: 0.5rem;
-  transition: 0.3s ease-out;
-}
-
-.formulario-registro-button:hover {
-  background-color: rgba(25, 167, 206, 0.5215686275);
-  color: #ffffff;
-  text-shadow: 0.15rem 0.15rem 0.1rem #000000;
-  border-radius: 1rem;
-}
-
-.formulario-registro a {
-  text-decoration: none;
-  color: #dddcdc;
-  transition: 0.3s ease-out;
-}
-
-.formulario-registro:hover a {
-  color: rgba(25, 167, 206, 0.9254901961);
-  text-decoration: underline;
-}
-
-.contacto-caja6 {
-  grid-area: area6;
-}
-
-.ubicacion-iframe-caja7 {
-  grid-area: area7;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.ubicacion-iframe-caja7 iframe {
-  width: 65rem;
-  height: 30rem;
-  border-radius: 2rem;
-}
-
-.ubicacion-iframe-caja7 p {
-  color: #dddcdc;
-  font-size: 1.5rem;
-  padding: 0.1rem;
-  text-align: center;
-}
-
-/* ------------------------------------------------- */
-/* estilos para para micuenta.html */
-/* main */
-.micuenta {
-  display: grid;
-  grid-template-columns: repeat(2 1fr);
-  grid-template-rows: auto;
-  grid-template-areas: "area1 area1" "area2 area3" "area4 area5";
-  justify-items: center;
-  align-items: center;
-  padding: 2rem;
-}
-
-.micuenta-caja1 {
-  grid-area: area1;
-}
-
-.micuenta-caja2 {
-  grid-area: area2;
-}
-
-.micuenta-caja3 {
-  grid-area: area3;
-}
-
-.micuenta-acceso {
-  grid-area: area4;
-}
-
-.micuenta-registro {
-  grid-area: area5;
-}
-
-/* ------------------------------------------------- */
 @media only screen and (max-width: 1325px) {
   /* -----para index.html----- */
   .bienvenida h1 {

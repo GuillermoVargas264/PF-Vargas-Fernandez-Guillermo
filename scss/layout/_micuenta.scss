@@ -1,0 +1,33 @@
+.micuenta {
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+        'area1 area1'
+        'area2 area3'
+        'area4 area5'
+    ;
+    justify-items: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.micuenta-caja1 {
+    grid-area: area1;
+}
+
+.micuenta-caja2 {
+    grid-area: area2;
+}
+
+.micuenta-caja3 {
+    grid-area: area3;
+}
+
+.micuenta-acceso {
+    grid-area: area4;
+}
+
+.micuenta-registro {
+    grid-area: area5;
+}
