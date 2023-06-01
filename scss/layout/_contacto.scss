@@ -13,126 +13,126 @@
     padding: 2rem 2rem 6rem 2rem;
     justify-items: center;
     align-items: center;
-}
 
-.contacto-caja1 {
-    grid-area: area1;
-}
+    &-caja1 {
+        grid-area: area1;
+    }
+    
+    &-caja2 {
+        grid-area: area2;
+    }
+    
+    &-caja3 {
+        grid-area: area3;
+    }
+    
+    .titulo-articulo {
+        font-size: 2.3rem;
+        color: #dddcdc;
+        text-decoration: underline;
+        padding: 1rem;
+    }
+    
+    &-redes-caja4 {
+        grid-area: area4;
+        display: flex;
+        gap: 3rem;
+        padding: 5rem 1rem;
+        align-items: center;
 
-.contacto-caja2 {
-    grid-area: area2;
-}
+        .contacto-redes-link i {
+            font-size: 6rem;
+            padding: 1rem;
+            transition: 0.2s ease-out;
 
-.contacto-caja3 {
-    grid-area: area3;
-}
+            &:hover {
+                color: #ffffffc0;
+            }
+        }
+    }
+    
+    .contacto-comunicate-caja5 {
+        grid-area: area5;
+        border-left: 0.2rem solid #ffffff;
+        padding: 0rem 3rem;
 
-.titulo-articulo {
-    font-size: 2.3rem;
-    color: #dddcdc;
-    text-decoration: underline;
-    padding: 1rem;
-}
+        p {
+            color: #dddcdc;
+            font-size: 1.7rem;
+            text-align: center;
+        }
 
-.contacto-redes-caja4 {
-    grid-area: area4;
-    display: flex;
-    gap: 3rem;
-    padding: 5rem 1rem;
-    align-items: center;
-}
+        h3 {
+            color: #dddcdc;
+            font-size: 2.2rem;
+            text-align: center;
+            padding: 1rem;
+        }
+    }
+    
+    &-comunicate-formulario {
+        text-align: center;
+        color: #dddcdc;
+        font-size: 2rem;
 
-.contacto-redes-link i {
-    font-size: 6rem;
-    padding: 1rem;
-    transition: 0.2s ease-out;
-}
+        .formulario-registro {
+            display: flex;
+            padding: 1rem;
+            justify-content: center;
+            gap: 1rem;
 
-.contacto-redes-link:hover i {
-    color: #ffffffc0;
-}
+            input {
+                width: 40rem;
+                height: 3rem;
+            }
 
-.contacto-comunicate-caja5 {
-    grid-area: area5;
-    border-left: 0.2rem solid #ffffff;
-    padding: 0rem 3rem;
-}
+            &-button {
+                background-color: #ffffff71;
+                padding: 0.5rem;
+                transition: 0.3s ease-out;
 
-.contacto-comunicate-caja5 p {
-    color: #dddcdc;
-    font-size: 1.7rem;
-    text-align: center;
-}
+                &:hover {
+                    background-color: #19a7ce85;
+                    color: #ffffff;
+                    text-shadow: 0.15rem 0.15rem 0.1rem #000000;
+                    border-radius: 1rem;
+                }    
+            }
 
-.contacto-comunicate-caja5 h3 {
-    color: #dddcdc;
-    font-size: 2.2rem;
-    text-align: center;
-    padding: 1rem;
-}
+            a {
+                text-decoration: none;
+                color: #dddcdc;
+                transition: 0.3s ease-out;
 
-.contacto-comunicate-formulario {
-    text-align: center;
-    color: #dddcdc;
-    font-size: 2rem;
-}
+                &:hover {
+                    color: #19a7ceec;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
 
-.formulario-registro {
-    display: flex;
-    padding: 1rem;
-    justify-content: center;
-    gap: 1rem;
-}
+    &-caja6 {
+        grid-area: area6;
+    }
+    
+    .ubicacion-iframe-caja7 {
+        grid-area: area7;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
 
-.formulario-registro input {
-    width: 40rem;
-    height: 3rem;
-}
+        iframe {
+            width: 65rem;
+            height: 30rem;
+            border-radius: 2rem;
+        }
 
-.formulario-registro-button {
-    background-color: #ffffff71;
-    padding: 0.5rem;
-    transition: 0.3s ease-out;
-}
-
-.formulario-registro-button:hover {
-    background-color: #19a7ce85;
-    color: #ffffff;
-    text-shadow: 0.15rem 0.15rem 0.1rem #000000;
-    border-radius: 1rem;
-}
-
-.formulario-registro a {
-    text-decoration: none;
-    color: #dddcdc;
-    transition: 0.3s ease-out;
-}
-
-.formulario-registro:hover a {
-    color: #19a7ceec;
-    text-decoration: underline;
-}
-
-.contacto-caja6 {
-    grid-area: area6;
-}
-
-.ubicacion-iframe-caja7 {
-    grid-area: area7;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-}
-
-.ubicacion-iframe-caja7 iframe {
-    width: 65rem;
-    height: 30rem;
-    border-radius: 2rem;
-}
-
-.ubicacion-iframe-caja7 p {
-    color: #dddcdc;
-    font-size: 1.5rem;
-    padding: 0.1rem;
-    text-align: center;
+        p {
+            color: #dddcdc;
+            font-size: 1.5rem;
+            padding: 0.1rem;
+            text-align: center;
+        }
+    }
 }
