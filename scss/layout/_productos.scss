@@ -11,38 +11,38 @@
     padding: 5rem;
     gap: 1rem;
     margin: 0rem;
-}
 
-.catalogo-seccion-caja1 {
-    grid-area: area1;
-}
+    &-seccion a {
+        color: #ffffff;
+        background-color: #8f9ca079;
+        font-size: 1.7rem;
+        padding: 1.5rem;
+        border-radius: 1rem;
+        text-decoration: none;
+        transition: 0.3s ease-out;
 
-.catalogo-seccion-caja2 {
-    grid-area: area2;
-}
+        &:hover {
+            background-color: #19a7ce85;
+            text-shadow: 0.25rem 0.25rem 0.2rem #000000;
+            border-radius: 2rem;
+        }
+    }
 
-.catalogo-seccion-caja3 {
-    grid-area: area3;
-}
+    &-seccion-caja1 {
+        grid-area: area1;
+    }
 
-.catalogo-seccion-caja4 {
-    grid-area: area4;
-}
+    &-seccion-caja2 {
+        grid-area: area2;
+    }
 
-.catalogo-seccion a {
-    color: #ffffff;
-    background-color: #8f9ca079;
-    font-size: 1.7rem;
-    padding: 1.5rem;
-    border-radius: 1rem;
-    text-decoration: none;
-    transition: 0.3s ease-out;
-}
+    &-seccion-caja3 {
+        grid-area: area3;
+    }
 
-.catalogo-seccion:hover a {
-    background-color: #19a7ce85;
-    text-shadow: 0.25rem 0.25rem 0.2rem #000000;
-    border-radius: 2rem;
+    &-seccion-caja4 {
+        grid-area: area4;
+    }
 }
 
 .productoscatalogo {
@@ -58,37 +58,37 @@
     gap: 5rem 1rem;
     padding: 4rem 2rem;
     justify-items: center;
-}
 
-.clases-productos-caja6 {
-    grid-area: area6;
-}
+    .clases-productos-caja6 {
+        grid-area: area6;
+    }
 
-.clases-productos-caja7 {
-    grid-area: area7;
-}
+    .clases-productos-caja7 {
+        grid-area: area7;
+    }
 
-.clases-productos-caja8 {
-    grid-area: area8;
-    padding: 2rem;
-    font-size: 1.5rem;
-    color: #ffffff;
-    text-decoration: none;
-}
+    .clases-productos-caja8 {
+        grid-area: area8;
+        padding: 2rem;
+        font-size: 1.5rem;
+        color: #ffffff;
+        text-decoration: none;
 
-.clases-productos-caja8 a {
-    padding: 1.5rem;
-    font-size: 2rem;
-    color: #ffffff;
-    border-radius: 1rem;
-    background-color: #19a7ce85;
-    text-decoration: none;
-    transition: 0.3s ease-out;
-}
+        a {
+            padding: 1.5rem;
+            font-size: 2rem;
+            color: #ffffff;
+            border-radius: 1rem;
+            background-color: #19a7ce85;
+            text-decoration: none;
+            transition: 0.3s ease-out;
 
-.clases-productos-caja8:hover a {
-    color: #ffffff;
-    background-color: #19a7cecc;
-    border-radius: 2rem;
-    text-shadow: 0.25rem 0.15rem 0.1rem #000000;
+            &:hover {
+                color: #ffffff;
+                background-color: #19a7cecc;
+                border-radius: 2rem;
+                text-shadow: 0.25rem 0.15rem 0.1rem #000000;
+            }
+        }
+    }
 }
