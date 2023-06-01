@@ -294,6 +294,72 @@ main {
   padding: 4rem 2rem;
   justify-items: center;
 }
+.productoscatalogo h4 {
+  grid-area: area1;
+  font-size: 3.5rem;
+  color: #ffffff;
+  padding: 1rem;
+  text-shadow: 0.25rem 0.25rem 0.1rem #000000;
+  margin: 0rem;
+}
+.productoscatalogo .clases-productos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.1647058824);
+  border: 0.1rem solid rgba(0, 0, 0, 0.368627451);
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  box-shadow: 0rem 0rem 4rem #000000;
+  padding: 1rem;
+  width: 30rem;
+  height: 53rem;
+  text-align: center;
+  overflow: hidden;
+}
+.productoscatalogo .clases-productos img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+  object-fit: cover;
+  cursor: pointer;
+}
+.productoscatalogo .clases-productos-nombre {
+  font-size: 2rem;
+  padding: 1.3rem 0.5rem;
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.productoscatalogo .clases-productos-precio {
+  font-size: 2.5rem;
+  padding: 0.3rem;
+  color: #ffffff;
+}
+.productoscatalogo .clases-productos-envio {
+  font-size: 1.5rem;
+  padding: 0.3rem;
+  color: #00ff00;
+}
+.productoscatalogo .clases-productos-click {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding: 0.5rem;
+}
+.productoscatalogo .clases-productos-click1 {
+  font-size: 1.5rem;
+  padding: 1rem;
+  color: #ffffff;
+  background-color: rgba(143, 156, 160, 0.4745098039);
+  border-radius: 1rem;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.productoscatalogo .clases-productos-click1:hover {
+  background-color: rgba(25, 167, 206, 0.5215686275);
+  text-shadow: 0.25rem 0.15rem 0.1rem #000000;
+}
 .productoscatalogo .clases-productos-caja6 {
   grid-area: area6;
 }
@@ -513,23 +579,18 @@ main {
   padding: 1rem;
   gap: 10rem;
 }
-
 .categoria-partes-caja1 {
   grid-area: area1;
 }
-
 .categoria-partes-caja2 {
   grid-area: area2;
 }
-
 .categoria-partes-caja3 {
   grid-area: area3;
 }
-
 .categoria-partes-caja4 {
   grid-area: area4;
 }
-
 .categoria-partes {
   display: flex;
   flex-direction: column;
@@ -537,7 +598,6 @@ main {
   overflow: hidden;
   padding: 0.5rem;
 }
-
 .categoria-partes-nombre {
   padding: 0.5rem;
   font-size: 2.5rem;
@@ -545,14 +605,12 @@ main {
   transition: 0.2s ease-out;
   text-decoration: none;
 }
-
 .categoria-partes-nombre:hover {
   padding: 0rem;
   font-size: 3rem;
   color: #19a7ce;
   text-shadow: 0.1rem 0.1rem 0.1rem #ffffff;
 }
-
 .categoria-partes a img {
   width: 23rem;
   height: auto;
@@ -561,8 +619,7 @@ main {
   border-radius: 100%;
   transition: 0.2s ease-out;
 }
-
-.categoria-partes:hover a img {
+.categoria-partes a img:hover {
   border: 0.3rem solid #19a7ce;
 }
 
@@ -576,45 +633,37 @@ main {
   padding: 1rem;
   justify-items: center;
 }
-
-.ofrecemos-partes-caja1 {
+.ofrecemos-conjuntodepartes .ofrecemos-partes-caja1 {
   grid-area: area1;
 }
-
-.ofrecemos-partes-caja2 {
+.ofrecemos-conjuntodepartes .ofrecemos-partes-caja2 {
   grid-area: area2;
 }
-
-.ofrecemos-partes-caja3 {
+.ofrecemos-conjuntodepartes .ofrecemos-partes-caja3 {
   grid-area: area3;
 }
-
-.ofrecemos-partes-caja4 {
+.ofrecemos-conjuntodepartes .ofrecemos-partes-caja4 {
   grid-area: area4;
 }
-
-.ofrecemos-partes {
+.ofrecemos-conjuntodepartes .ofrecemos-partes {
   display: flex;
   padding: 0.5rem;
   justify-content: space-between;
 }
-
-.ofrecemos-partes img {
+.ofrecemos-conjuntodepartes .ofrecemos-partes img {
   width: 7rem;
   height: 7rem;
   object-fit: cover;
   border: 0.2rem solid #000000;
   border-radius: 100%;
 }
-
-.ofrecemos-partes p {
+.ofrecemos-conjuntodepartes .ofrecemos-partes p {
   padding: 1.4rem 0.5rem;
   font-size: 1.5rem;
   color: #141414;
   margin: 0rem;
 }
-
-.ofrecemos-partes-parrafo {
+.ofrecemos-conjuntodepartes .ofrecemos-partes-parrafo {
   color: #000000;
   font-size: 1.6rem;
 }
@@ -628,25 +677,19 @@ main {
   padding: 4rem 2rem;
   justify-items: center;
 }
-
-.clases-productos-caja2 {
+.productosindex .clases-productos-caja2 {
   grid-area: area2;
 }
-
-.clases-productos-caja3 {
+.productosindex .clases-productos-caja3 {
   grid-area: area3;
 }
-
-.clases-productos-caja4 {
+.productosindex .clases-productos-caja4 {
   grid-area: area4;
 }
-
-.clases-productos-caja5 {
+.productosindex .clases-productos-caja5 {
   grid-area: area5;
 }
-
-.productosindex h4,
-.productoscatalogo h4 {
+.productosindex h4 {
   grid-area: area1;
   font-size: 3.5rem;
   color: #ffffff;
@@ -654,8 +697,7 @@ main {
   text-shadow: 0.25rem 0.25rem 0.1rem #000000;
   margin: 0rem;
 }
-
-.clases-productos {
+.productosindex .clases-productos {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -670,44 +712,37 @@ main {
   text-align: center;
   overflow: hidden;
 }
-
-.clases-productos img {
+.productosindex .clases-productos img {
   width: 100%;
   height: auto;
   border-radius: 0.5rem;
   object-fit: cover;
   cursor: pointer;
 }
-
-.clases-productos-nombre {
+.productosindex .clases-productos-nombre {
   font-size: 2rem;
   padding: 1.3rem 0.5rem;
   color: #ffffff;
   text-decoration: none;
   cursor: pointer;
 }
-
-.clases-productos-precio {
+.productosindex .clases-productos-precio {
   font-size: 2.5rem;
   padding: 0.3rem;
   color: #ffffff;
 }
-
-.clases-productos-envio {
+.productosindex .clases-productos-envio {
   font-size: 1.5rem;
   padding: 0.3rem;
   color: #00ff00;
 }
-
-.clases-productos-click {
+.productosindex .clases-productos-click {
   display: flex;
   flex-direction: row;
   gap: 1rem;
   padding: 0.5rem;
 }
-
-.clases-productos-click1,
-.clases-productos-click2 {
+.productosindex .clases-productos-click1 {
   font-size: 1.5rem;
   padding: 1rem;
   color: #ffffff;
@@ -716,9 +751,7 @@ main {
   text-decoration: none;
   transition: 0.2s;
 }
-
-.clases-productos-click1:hover,
-.clases-productos-click2:hover {
+.productosindex .clases-productos-click1:hover {
   background-color: rgba(25, 167, 206, 0.5215686275);
   text-shadow: 0.25rem 0.15rem 0.1rem #000000;
 }
@@ -731,27 +764,23 @@ main {
   text-align: center;
   padding: 4rem;
 }
-
 .novedades h6 {
   font-size: 3rem;
   color: #ffffff;
   padding: 1rem;
 }
-
 .novedades p {
   font-size: 1.5rem;
   color: #ffffff;
   padding: 1rem;
 }
-
 .novedades-form {
   display: flex;
   justify-content: center;
   gap: 1rem;
   padding: 1rem;
 }
-
-.form-control {
+.novedades-form .form-control {
   display: flex;
   font-size: 1.5rem;
   width: 40rem;
@@ -759,14 +788,12 @@ main {
   margin: 0rem;
   padding: 0rem;
 }
-
-.btn-secondary {
+.novedades-form .btn-secondary {
   font-size: 1.2rem;
   background-color: rgba(25, 167, 206, 0.7137254902);
   transition: 0.15s ease-out;
 }
-
-.btn-secondary:hover {
+.novedades-form .btn-secondary:hover {
   background-color: rgba(16, 111, 138, 0.7137254902);
   color: #d4d4d4;
 }
