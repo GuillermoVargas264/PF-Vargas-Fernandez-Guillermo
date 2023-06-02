@@ -17,15 +17,15 @@
     &-caja1 {
         grid-area: area1;
     }
-    
+
     &-caja2 {
         grid-area: area2;
     }
-    
+
     &-caja3 {
         grid-area: area3;
     }
-    
+
     &-redes-caja4 {
         grid-area: area4;
         display: flex;
@@ -33,17 +33,35 @@
         padding: 5rem 1rem;
         align-items: center;
 
-        .contacto-redes-link i {
-            font-size: 6rem;
-            padding: 1rem;
-            transition: 0.2s ease-out;
+        .contacto-redes-link {
+            i {
+                font-size: 6rem;
+                padding: 1rem;
+                transition: 0.2s ease-out;
 
-            &:hover {
-                color: #ffffffc0;
+                &:hover {
+                    color: #ffffffc0;
+                }
+            }
+
+            .bi-twitter {
+                color: #1da1f3;
+            }
+
+            .bi-whatsapp {
+                color: #45c655;
+            }
+
+            .bi-facebook {
+                color: #1778f2;
+            }
+
+            .bi-instagram {
+                color: #d94561;
             }
         }
     }
-    
+
     &-comunicate-caja5 {
         grid-area: area5;
         border-left: 0.2rem solid #ffffff;
@@ -62,11 +80,11 @@
             padding: 1rem;
         }
     }
-    
+
     &-caja6 {
         grid-area: area6;
     }
-    
+
     .ubicacion-iframe-caja7 {
         grid-area: area7;
         display: flex;

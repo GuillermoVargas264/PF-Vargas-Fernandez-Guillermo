@@ -74,93 +74,96 @@
 
 //---------------------------------------------------
 //Cards de index y productos
-.productoscatalogo h4,
-.productosindex h4 {
-    grid-area: area1;
-    font-size: 3.5rem;
-    color: #ffffff;
-    padding: 1rem;
-    text-shadow: 0.25rem 0.25rem 0.1rem #000000;
-    margin: 0rem;
-}
+.productoscatalogo,
+.productosindex {
 
-.clases-productos-caja2 {
-    grid-area: area2;
-}
-
-.clases-productos-caja3 {
-    grid-area: area3;
-}
-
-.clases-productos-caja4 {
-    grid-area: area4;
-}
-
-.clases-productos-caja5 {
-    grid-area: area5;
-}
-
-.clases-productos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #0000002a;
-    border: 0.1rem solid #0000005e;
-    border-bottom-left-radius: 1.5rem;
-    border-bottom-right-radius: 1.5rem;
-    box-shadow: 0rem 0rem 4rem #000000;
-    padding: 1rem;
-    width: 30rem;
-    height: 53rem;
-    text-align: center;
-    overflow: hidden;
-
-    img {
-        width: 100%;
-        height: auto;
-        border-radius: 0.5rem;
-        object-fit: cover;
-        cursor: pointer;
-    }
-
-    &-nombre {
-        font-size: 2rem;
-        padding: 1.3rem 0.5rem;
+    h4 {
+        grid-area: area1;
+        font-size: 3.5rem;
         color: #ffffff;
-        text-decoration: none;
-        cursor: pointer;
+        padding: 1rem;
+        text-shadow: 0.25rem 0.25rem 0.1rem #000000;
+        margin: 0rem;
     }
 
-    &-precio {
-        font-size: 2.5rem;
-        padding: 0.3rem;
-        color: #ffffff;
+    .clases-productos-caja2 {
+        grid-area: area2;
     }
 
-    &-envio {
-        font-size: 1.5rem;
-        padding: 0.3rem;
-        color: #00ff00;
+    .clases-productos-caja3 {
+        grid-area: area3;
     }
 
-    &-click {
+    .clases-productos-caja4 {
+        grid-area: area4;
+    }
+
+    .clases-productos-caja5 {
+        grid-area: area5;
+    }
+
+    .clases-productos {
         display: flex;
-        flex-direction: row;
-        gap: 1rem;
-        padding: 0.5rem;
+        flex-direction: column;
+        align-items: center;
+        background-color: #0000002a;
+        border: 0.1rem solid #0000005e;
+        border-bottom-left-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+        box-shadow: 0rem 0rem 4rem #000000;
+        padding: 1rem;
+        width: 30rem;
+        height: 53rem;
+        text-align: center;
+        overflow: hidden;
 
-        &1 {
-            font-size: 1.5rem;
-            padding: 1rem;
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 0.5rem;
+            object-fit: cover;
+            cursor: pointer;
+        }
+
+        &-nombre {
+            font-size: 2rem;
+            padding: 1.3rem 0.5rem;
             color: #ffffff;
-            background-color: #8f9ca079;
-            border-radius: 1rem;
             text-decoration: none;
-            transition: 0.2s;
+            cursor: pointer;
+        }
 
-            &:hover {
-                background-color: #19a7ce85;
-                text-shadow: 0.25rem 0.15rem 0.1rem #000000;
+        &-precio {
+            font-size: 2.5rem;
+            padding: 0.3rem;
+            color: #ffffff;
+        }
+
+        &-envio {
+            font-size: 1.5rem;
+            padding: 0.3rem;
+            color: #00ff00;
+        }
+
+        &-click {
+            display: flex;
+            flex-direction: row;
+            gap: 1rem;
+            padding: 0.5rem;
+
+            &1 {
+                font-size: 1.5rem;
+                padding: 1rem;
+                color: #ffffff;
+                background-color: #8f9ca079;
+                border-radius: 1rem;
+                text-decoration: none;
+                transition: 0.2s;
+
+                &:hover {
+                    background-color: #19a7ce85;
+                    text-shadow: 0.25rem 0.15rem 0.1rem #000000;
+                }
             }
         }
     }

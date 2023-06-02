@@ -1,42 +1,43 @@
 @media only screen and (max-width:1325px) {
 
-    /* -----para index.html----- */
-
+    //para index.html
     .bienvenida h1 {
         font-size: 2.5rem;
     }
 
     .categoria {
         gap: 5rem;
+
+        &-partes-nombre {
+            padding: 0.2rem;
+            font-size: 2rem;
+
+            &:hover {
+                padding: 0rem;
+                font-size: 2.1rem;
+            }
+        }
+
+        &-partes a img {
+            width: 13rem;
+            margin: 0rem;
+        }
     }
 
-    .categoria-partes-nombre {
-        padding: 0.2rem;
-        font-size: 2rem;
-    }
+    .ofrecemos-partes {
+        img {
+            width: 4rem;
+            height: 4rem;
+        }
 
-    .categoria-partes-nombre:hover {
-        padding: 0rem;
-        font-size: 2.1rem;
-    }
+        p {
+            padding: 0rem 0.5rem;
+            font-size: 1.2rem;
+        }
 
-    .categoria-partes a img {
-        width: 13rem;
-        margin: 0rem;
-    }
-
-    .ofrecemos-partes img {
-        width: 4rem;
-        height: 4rem;
-    }
-
-    .ofrecemos-partes p {
-        padding: 0rem 0.5rem;
-        font-size: 1.2rem;
-    }
-
-    .ofrecemos-partes-parrafo {
-        font-size: 1.3rem;
+        &-parrafo {
+            font-size: 1.3rem;
+        }
     }
 
     .productosindex h4,
@@ -47,36 +48,40 @@
     .clases-productos {
         width: 20rem;
         height: 36rem;
+
+        &-nombre {
+            font-size: 1.3rem;
+            padding: 1rem 0.5rem;
+        }
+
+        &-precio {
+            font-size: 1.7rem;
+            padding: 0.2rem;
+        }
+
+        &-envio {
+            font-size: 1rem;
+            padding: 0.2rem;
+        }
+
+        &-click {
+
+            &1 {
+                font-size: 1rem;
+                padding: 0.7rem;
+            }
+        }
     }
 
-    .clases-productos-nombre {
-        font-size: 1.3rem;
-        padding: 1rem 0.5rem;
-    }
-
-    .clases-productos-precio {
-        font-size: 1.7rem;
-        padding: 0.2rem;
-    }
-
-    .clases-productos-envio {
-        font-size: 1rem;
-        padding: 0.2rem;
-    }
-
-    .clases-productos-click1,
-    .clases-productos-click2 {
-        font-size: 1rem;
-        padding: 0.7rem;
-    }
-
-    /* -----para footer----- */
+    //---------------------------------------------------
+    //para footer
 
     .footer-redes {
         gap: 1rem;
     }
 
-    /* -----para informacion.html----- */
+    //---------------------------------------------------
+    //para informacion.html
 
     .informacion-galeria {
         gap: 1rem;
@@ -86,7 +91,7 @@
 
 @media only screen and (max-width:1150px) {
 
-    /* -----para footer----- */
+    //para footer
 
     .footer {
         grid-template-columns: repeat(2, 1fr);
@@ -95,31 +100,34 @@
             'area2 .....'
             'area4 area4'
         ;
+
+        &-redes {
+            &-link:hover {
+                color: #ffffffc7;
+                font-size: 4rem;
+                padding: 1rem;
+            }
+        }
     }
 
-    .footer-redes-link:hover i {
-        color: #ffffffc7;
-        font-size: 4rem;
-        padding: 1rem;
-    }
-
-    /* -----para informacion.html----- */
+    //---------------------------------------------------
+    //para informacion.html
 
     .informacion-galeria {
         flex-direction: column;
         gap: 2rem;
-        align-items: center
-    }
-
-    .informacion-galeria img {
-        width: 70%;
-        height: auto;
+        align-items: center;
+        
+        img {
+            width: 70%;
+            height: auto;
+        }
     }
 }
 
 @media only screen and (max-width:992px) {
 
-    /* ----- para header----- */
+    //para header
 
     .bg-dark {
         height: auto;
@@ -157,6 +165,7 @@
         margin: 0rem 0.6rem;
     }
 
+    //---------------------------------------------------
     /* -----para index.html----- */
 
     .ofrecemos-conjuntodepartes {
@@ -177,6 +186,7 @@
         ;
     }
 
+    //---------------------------------------------------
     /* -----para footer----- */
 
     .footer {

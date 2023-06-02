@@ -48,16 +48,18 @@
             }
         }
 
-        a img {
-            width: 23rem;
-            height: auto;
-            object-fit: cover;
-            border: 0.3rem solid #ffffff;
-            border-radius: 100%;
-            transition: 0.2s ease-out;
+        a {
+            img {
+                width: 23rem;
+                height: auto;
+                object-fit: cover;
+                border: 0.3rem solid #ffffff;
+                border-radius: 100%;
+                transition: 0.2s ease-out;
 
-            &:hover {
-                border: 0.3rem solid #19a7ce;
+                &:hover {
+                    border: 0.3rem solid #19a7ce;
+                }
             }
         }
     }
@@ -109,11 +111,11 @@
             font-size: 1.5rem;
             color: #141414;
             margin: 0rem;
-        }
 
-        &-parrafo {
-            color: #000000;
-            font-size: 1.6rem;
+            strong {
+                color: #000000;
+                font-size: 1.6rem;
+            }
         }
     }
 }

@@ -12,19 +12,21 @@
     gap: 1rem;
     margin: 0rem;
 
-    &-seccion a {
-        color: #ffffff;
-        background-color: #8f9ca079;
-        font-size: 1.7rem;
-        padding: 1.5rem;
-        border-radius: 1rem;
-        text-decoration: none;
-        transition: 0.3s ease-out;
+    &-seccion {
+        a {
+            color: #ffffff;
+            background-color: #8f9ca079;
+            font-size: 1.7rem;
+            padding: 1.5rem;
+            border-radius: 1rem;
+            text-decoration: none;
+            transition: 0.3s ease-out;
 
-        &:hover {
-            background-color: #19a7ce85;
-            text-shadow: 0.25rem 0.25rem 0.2rem #000000;
-            border-radius: 2rem;
+            &:hover {
+                background-color: #19a7ce85;
+                text-shadow: 0.25rem 0.25rem 0.2rem #000000;
+                border-radius: 2rem;
+            }
         }
     }
 
