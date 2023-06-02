@@ -26,13 +26,6 @@
         grid-area: area3;
     }
     
-    .titulo-articulo {
-        font-size: 2.3rem;
-        color: #dddcdc;
-        text-decoration: underline;
-        padding: 1rem;
-    }
-    
     &-redes-caja4 {
         grid-area: area4;
         display: flex;
@@ -51,7 +44,7 @@
         }
     }
     
-    .contacto-comunicate-caja5 {
+    &-comunicate-caja5 {
         grid-area: area5;
         border-left: 0.2rem solid #ffffff;
         padding: 0rem 3rem;
@@ -70,48 +63,6 @@
         }
     }
     
-    &-comunicate-formulario {
-        text-align: center;
-        color: #dddcdc;
-        font-size: 2rem;
-
-        .formulario-registro {
-            display: flex;
-            padding: 1rem;
-            justify-content: center;
-            gap: 1rem;
-
-            input {
-                width: 40rem;
-                height: 3rem;
-            }
-
-            &-button {
-                background-color: #ffffff71;
-                padding: 0.5rem;
-                transition: 0.3s ease-out;
-
-                &:hover {
-                    background-color: #19a7ce85;
-                    color: #ffffff;
-                    text-shadow: 0.15rem 0.15rem 0.1rem #000000;
-                    border-radius: 1rem;
-                }    
-            }
-
-            a {
-                text-decoration: none;
-                color: #dddcdc;
-                transition: 0.3s ease-out;
-
-                &:hover {
-                    color: #19a7ceec;
-                    text-decoration: underline;
-                }
-            }
-        }
-    }
-
     &-caja6 {
         grid-area: area6;
     }
