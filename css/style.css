@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Domine:wght@700&display=swap");
-
 * {
   margin: 0;
   padding: 0;
@@ -24,70 +23,56 @@ main {
   background-size: cover;
   background-attachment: fixed;
 }
-
 .bg-dark .container-fluid .navbar-brand {
   overflow: hidden;
   object-fit: cover;
 }
-
 .bg-dark .container-fluid .navbar-brand img {
   width: 11rem;
   height: auto;
   padding: 0rem 0rem 0rem 2rem;
   transition: 0.4s;
 }
-
 .bg-dark .container-fluid .navbar-brand img:hover {
   width: 11.5rem;
   height: auto;
   padding: 0rem;
 }
-
 .bg-dark .container-fluid .navbar-collapse .navbar-nav {
   gap: 0.5rem;
 }
-
 .bg-dark .container-fluid .navbar-collapse .navbar-nav .nav-item {
   transition: 0.6s ease-out;
   padding: 0rem 0.3rem;
   border-radius: 1rem;
 }
-
 .bg-dark .container-fluid .navbar-collapse .navbar-nav .nav-item:hover {
   background-color: rgba(25, 167, 206, 0.5215686275);
 }
-
 .bg-dark .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link {
   font-size: 2.5rem;
   color: #19a7ce;
   transition: 0.4s ease-out;
   text-shadow: 0.1rem 0.1rem 0.1rem #ffffff;
 }
-
-.bg-dark .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link:hover,
-.bg-dark .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link:focus {
+.bg-dark .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link:hover, .bg-dark .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link:focus {
   color: #ffffff;
   text-shadow: 0.25rem 0.15rem 0.3rem #000000;
 }
-
 .bg-dark .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link i {
   padding: 0rem 1rem;
   text-shadow: none;
 }
-
 .bg-dark .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link i:hover {
   text-shadow: 0.25rem 0.15rem 0.3rem #000000;
 }
-
 .bg-dark .container-fluid .navbar-collapse .navbar-nav .nav-item .active {
   color: #ffffff;
   text-shadow: none;
 }
-
 .bg-dark .container-fluid .navbar-collapse .navbar-nav .nav-item .active:hover {
   text-shadow: 0.3rem 0.2rem 0.3rem #000000;
 }
-
 .bg-dark .container-fluid .navbar-collapse .navbar-nav .dropdown .dropdown-menu {
   background-color: rgba(25, 167, 206, 0.7137254902);
   font-size: 1.7rem;
@@ -95,7 +80,6 @@ main {
   margin: 0rem 0.6rem;
   padding: 0.5rem;
 }
-
 .bg-dark .container-fluid .navbar-collapse .navbar-nav .dropdown .dropdown-menu .dropdown-item {
   color: #ffffff;
   text-shadow: 0.25rem 0.15rem 0.3rem #000000;
@@ -103,16 +87,13 @@ main {
   transition: 0.4s ease-out;
   margin: 0.3rem 0rem;
 }
-
 .bg-dark .container-fluid .navbar-collapse .navbar-nav .dropdown .dropdown-menu .dropdown-item:hover {
   color: #000000;
   text-shadow: 0.15rem 0.1rem 0.3rem #000000;
 }
-
 .bg-dark .container-fluid .navbar-collapse .navbar-nav .dropdown .dropdown-menu .dropdown-divider {
   margin: 0.1rem 0rem;
 }
-
 .bg-dark .container-fluid .navbar-collapse .navbar-nav .dropdown .menu-micuenta {
   margin: 0rem 2.3rem;
 }
@@ -131,39 +112,31 @@ main {
   justify-items: center;
   align-items: center;
 }
-
 .footer-logo-caja1 {
   grid-area: area1;
 }
-
 .footer-redes-caja2 {
   grid-area: area2;
 }
-
 .footer-horario-caja3 {
   grid-area: area3;
 }
-
 .footer-logo {
   display: flex;
   padding: 1rem;
   transition: 0.3s ease-out;
   align-items: center;
 }
-
 .footer-logo:hover {
   padding: 0rem;
 }
-
 .footer-logo img {
   width: 30rem;
   transition: 0.3s ease-out;
 }
-
 .footer-logo img:hover {
   width: 32rem;
 }
-
 .footer-redes {
   display: flex;
   flex-direction: row;
@@ -174,38 +147,30 @@ main {
   align-items: center;
   flex-wrap: wrap;
 }
-
 .footer-redes-link i {
   font-size: 4rem;
   padding: 1rem;
   transition: 0.2s ease-out;
 }
-
 .footer-redes-link i:hover {
   font-size: 5rem;
   padding: 0.5rem;
 }
-
 .footer-redes-link .bi-youtube {
   color: #ff0000;
 }
-
 .footer-redes-link .bi-twitter {
   color: #1da1f3;
 }
-
 .footer-redes-link .bi-whatsapp {
   color: #45c655;
 }
-
 .footer-redes-link .bi-facebook {
   color: #1778f2;
 }
-
 .footer-redes-link .bi-instagram {
   color: #d94561;
 }
-
 .footer .footer-horario {
   display: flex;
   flex-direction: column;
@@ -214,7 +179,6 @@ main {
   padding: 1rem;
   margin: 1rem;
 }
-
 .footer .footer-horario h6 {
   font-size: 2.4rem;
   color: #19A7CE;
@@ -222,7 +186,6 @@ main {
   padding: 1rem;
   margin: 0rem;
 }
-
 .footer .footer-horario-list {
   display: flex;
   flex-direction: column;
@@ -232,18 +195,16 @@ main {
   list-style-type: none;
   margin: 0rem;
 }
-
 .footer .footer-horario-list li {
   font-size: 1.6rem;
   color: #19A7CE;
 }
-
 .footer p {
   grid-area: area4;
   padding: 0rem 1rem 0.5rem 1rem;
   display: flex;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: #19A7CE;
   margin: 0rem;
 }
@@ -277,38 +238,32 @@ main {
   color: #dddcdc;
   font-size: 2rem;
 }
-
 .contacto-comunicate-formulario .formulario-registro {
   display: flex;
   padding: 1rem;
   justify-content: center;
   gap: 1rem;
 }
-
 .contacto-comunicate-formulario .formulario-registro input {
   width: 40rem;
   height: 3rem;
 }
-
 .contacto-comunicate-formulario .formulario-registro-button {
   background-color: rgba(255, 255, 255, 0.4431372549);
   padding: 0.5rem;
   transition: 0.3s ease-out;
 }
-
 .contacto-comunicate-formulario .formulario-registro-button:hover {
   background-color: rgba(25, 167, 206, 0.5215686275);
   color: #ffffff;
   text-shadow: 0.15rem 0.15rem 0.1rem #000000;
   border-radius: 1rem;
 }
-
 .contacto-comunicate-formulario .formulario-registro a {
   text-decoration: none;
   color: #dddcdc;
   transition: 0.3s ease-out;
 }
-
 .contacto-comunicate-formulario .formulario-registro a:hover {
   color: rgba(25, 167, 206, 0.9254901961);
   text-decoration: underline;
@@ -323,27 +278,22 @@ main {
   text-shadow: 0.25rem 0.25rem 0.1rem #000000;
   margin: 0rem;
 }
-
 .productoscatalogo .clases-productos-caja2,
 .productosindex .clases-productos-caja2 {
   grid-area: area2;
 }
-
 .productoscatalogo .clases-productos-caja3,
 .productosindex .clases-productos-caja3 {
   grid-area: area3;
 }
-
 .productoscatalogo .clases-productos-caja4,
 .productosindex .clases-productos-caja4 {
   grid-area: area4;
 }
-
 .productoscatalogo .clases-productos-caja5,
 .productosindex .clases-productos-caja5 {
   grid-area: area5;
 }
-
 .productoscatalogo .clases-productos,
 .productosindex .clases-productos {
   display: flex;
@@ -360,7 +310,6 @@ main {
   text-align: center;
   overflow: hidden;
 }
-
 .productoscatalogo .clases-productos img,
 .productosindex .clases-productos img {
   width: 100%;
@@ -369,7 +318,6 @@ main {
   object-fit: cover;
   cursor: pointer;
 }
-
 .productoscatalogo .clases-productos-nombre,
 .productosindex .clases-productos-nombre {
   font-size: 2rem;
@@ -378,21 +326,18 @@ main {
   text-decoration: none;
   cursor: pointer;
 }
-
 .productoscatalogo .clases-productos-precio,
 .productosindex .clases-productos-precio {
   font-size: 2.5rem;
   padding: 0.3rem;
   color: #ffffff;
 }
-
 .productoscatalogo .clases-productos-envio,
 .productosindex .clases-productos-envio {
   font-size: 1.5rem;
   padding: 0.3rem;
   color: #00ff00;
 }
-
 .productoscatalogo .clases-productos-click,
 .productosindex .clases-productos-click {
   display: flex;
@@ -400,7 +345,6 @@ main {
   gap: 1rem;
   padding: 0.5rem;
 }
-
 .productoscatalogo .clases-productos-click1,
 .productosindex .clases-productos-click1 {
   font-size: 1.5rem;
@@ -411,7 +355,6 @@ main {
   text-decoration: none;
   transition: 0.2s;
 }
-
 .productoscatalogo .clases-productos-click1:hover,
 .productosindex .clases-productos-click1:hover {
   background-color: rgba(25, 167, 206, 0.5215686275);
@@ -426,26 +369,22 @@ main {
   text-align: center;
   padding: 4rem;
 }
-
 .novedades h6 {
   font-size: 3rem;
   color: #ffffff;
   padding: 1rem;
 }
-
 .novedades p {
   font-size: 1.5rem;
   color: #ffffff;
   padding: 1rem;
 }
-
 .novedades-form {
   display: flex;
   justify-content: center;
   gap: 1rem;
   padding: 1rem;
 }
-
 .novedades-form .form-control {
   display: flex;
   font-size: 1.5rem;
@@ -454,13 +393,11 @@ main {
   margin: 0rem;
   padding: 0rem;
 }
-
 .novedades-form .btn-secondary {
   font-size: 1.2rem;
   background-color: rgba(25, 167, 206, 0.7137254902);
   transition: 0.15s ease-out;
 }
-
 .novedades-form .btn-secondary:hover {
   background-color: rgba(16, 111, 138, 0.7137254902);
   color: #d4d4d4;
@@ -478,7 +415,6 @@ main {
   gap: 1rem;
   margin: 0rem;
 }
-
 .catalogo-seccion a {
   color: #ffffff;
   background-color: rgba(143, 156, 160, 0.4745098039);
@@ -488,25 +424,20 @@ main {
   text-decoration: none;
   transition: 0.3s ease-out;
 }
-
 .catalogo-seccion a:hover {
   background-color: rgba(25, 167, 206, 0.5215686275);
   text-shadow: 0.25rem 0.25rem 0.2rem #000000;
   border-radius: 2rem;
 }
-
 .catalogo-seccion-caja1 {
   grid-area: area1;
 }
-
 .catalogo-seccion-caja2 {
   grid-area: area2;
 }
-
 .catalogo-seccion-caja3 {
   grid-area: area3;
 }
-
 .catalogo-seccion-caja4 {
   grid-area: area4;
 }
@@ -520,15 +451,12 @@ main {
   padding: 4rem 2rem;
   justify-items: center;
 }
-
 .productoscatalogo .clases-productos-caja6 {
   grid-area: area6;
 }
-
 .productoscatalogo .clases-productos-caja7 {
   grid-area: area7;
 }
-
 .productoscatalogo .clases-productos-caja8 {
   grid-area: area8;
   padding: 2rem;
@@ -536,7 +464,6 @@ main {
   color: #ffffff;
   text-decoration: none;
 }
-
 .productoscatalogo .clases-productos-caja8 a {
   padding: 1.5rem;
   font-size: 2rem;
@@ -546,7 +473,6 @@ main {
   text-decoration: none;
   transition: 0.3s ease-out;
 }
-
 .productoscatalogo .clases-productos-caja8 a:hover {
   color: #ffffff;
   background-color: rgba(25, 167, 206, 0.8);
@@ -563,23 +489,18 @@ main {
   align-items: center;
   padding: 2rem;
 }
-
 .micuenta-caja1 {
   grid-area: area1;
 }
-
 .micuenta-caja2 {
   grid-area: area2;
 }
-
 .micuenta-caja3 {
   grid-area: area3;
 }
-
 .micuenta-acceso {
   grid-area: area4;
 }
-
 .micuenta-registro {
   grid-area: area5;
 }
@@ -591,7 +512,6 @@ main {
   padding: 1rem 4rem;
   text-align: center;
 }
-
 .informacion p {
   font-size: 2.2rem;
   padding: 1rem;
@@ -604,7 +524,6 @@ main {
   justify-content: center;
   padding: 5rem 1rem;
 }
-
 .informacion-galeria img {
   width: 35.5rem;
   height: 23rem;
@@ -621,19 +540,15 @@ main {
   justify-items: center;
   align-items: center;
 }
-
 .contacto-caja1 {
   grid-area: area1;
 }
-
 .contacto-caja2 {
   grid-area: area2;
 }
-
 .contacto-caja3 {
   grid-area: area3;
 }
-
 .contacto-redes-caja4 {
   grid-area: area4;
   display: flex;
@@ -641,69 +556,56 @@ main {
   padding: 5rem 1rem;
   align-items: center;
 }
-
 .contacto-redes-caja4 .contacto-redes-link i {
   font-size: 6rem;
   padding: 1rem;
   transition: 0.2s ease-out;
 }
-
 .contacto-redes-caja4 .contacto-redes-link i:hover {
   color: rgba(255, 255, 255, 0.7529411765);
 }
-
 .contacto-redes-caja4 .contacto-redes-link .bi-twitter {
   color: #1da1f3;
 }
-
 .contacto-redes-caja4 .contacto-redes-link .bi-whatsapp {
   color: #45c655;
 }
-
 .contacto-redes-caja4 .contacto-redes-link .bi-facebook {
   color: #1778f2;
 }
-
 .contacto-redes-caja4 .contacto-redes-link .bi-instagram {
   color: #d94561;
 }
-
 .contacto-comunicate-caja5 {
   grid-area: area5;
   border-left: 0.2rem solid #ffffff;
   padding: 0rem 3rem;
 }
-
 .contacto-comunicate-caja5 p {
   color: #dddcdc;
   font-size: 1.7rem;
   text-align: center;
 }
-
 .contacto-comunicate-caja5 h3 {
   color: #dddcdc;
   font-size: 2.2rem;
   text-align: center;
   padding: 1rem;
 }
-
 .contacto-caja6 {
   grid-area: area6;
 }
-
 .contacto .ubicacion-iframe-caja7 {
   grid-area: area7;
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
 }
-
 .contacto .ubicacion-iframe-caja7 iframe {
   width: 65rem;
   height: 30rem;
   border-radius: 2rem;
 }
-
 .contacto .ubicacion-iframe-caja7 p {
   color: #dddcdc;
   font-size: 1.5rem;
@@ -721,23 +623,18 @@ main {
   padding: 1rem;
   gap: 10rem;
 }
-
 .categoria-partes-caja1 {
   grid-area: area1;
 }
-
 .categoria-partes-caja2 {
   grid-area: area2;
 }
-
 .categoria-partes-caja3 {
   grid-area: area3;
 }
-
 .categoria-partes-caja4 {
   grid-area: area4;
 }
-
 .categoria-partes {
   display: flex;
   flex-direction: column;
@@ -745,7 +642,6 @@ main {
   overflow: hidden;
   padding: 0.5rem;
 }
-
 .categoria-partes-nombre {
   padding: 0.5rem;
   font-size: 2.5rem;
@@ -753,14 +649,12 @@ main {
   transition: 0.2s ease-out;
   text-decoration: none;
 }
-
 .categoria-partes-nombre:hover {
   padding: 0rem;
   font-size: 3rem;
   color: #19a7ce;
   text-shadow: 0.1rem 0.1rem 0.1rem #ffffff;
 }
-
 .categoria-partes a img {
   width: 23rem;
   height: auto;
@@ -769,7 +663,6 @@ main {
   border-radius: 100%;
   transition: 0.2s ease-out;
 }
-
 .categoria-partes a img:hover {
   border: 0.3rem solid #19a7ce;
 }
@@ -784,29 +677,23 @@ main {
   padding: 1rem;
   justify-items: center;
 }
-
 .ofrecemos-conjuntodepartes .ofrecemos-partes-caja1 {
   grid-area: area1;
 }
-
 .ofrecemos-conjuntodepartes .ofrecemos-partes-caja2 {
   grid-area: area2;
 }
-
 .ofrecemos-conjuntodepartes .ofrecemos-partes-caja3 {
   grid-area: area3;
 }
-
 .ofrecemos-conjuntodepartes .ofrecemos-partes-caja4 {
   grid-area: area4;
 }
-
 .ofrecemos-conjuntodepartes .ofrecemos-partes {
   display: flex;
   padding: 0.5rem;
   justify-content: space-between;
 }
-
 .ofrecemos-conjuntodepartes .ofrecemos-partes img {
   width: 7rem;
   height: 7rem;
@@ -814,14 +701,12 @@ main {
   border: 0.2rem solid #000000;
   border-radius: 100%;
 }
-
 .ofrecemos-conjuntodepartes .ofrecemos-partes p {
   padding: 1.4rem 0.5rem;
   font-size: 1.5rem;
   color: #141414;
   margin: 0rem;
 }
-
 .ofrecemos-conjuntodepartes .ofrecemos-partes p strong {
   color: #000000;
   font-size: 1.6rem;
@@ -837,281 +722,88 @@ main {
   justify-items: center;
 }
 
-@media only screen and (max-width: 1325px) {
-  .bienvenida h1 {
-    font-size: 2.5rem;
-  }
-
+@media only screen and (max-width: 1400px) {
   .categoria {
     gap: 5rem;
   }
-
-  .categoria-partes-nombre {
-    padding: 0.2rem;
-    font-size: 2rem;
-  }
-
-  .categoria-partes-nombre:hover {
+  .ofrecemos-conjuntodepartes .ofrecemos-partes {
     padding: 0rem;
-    font-size: 2.1rem;
   }
-
-  .categoria-partes a img {
-    width: 13rem;
-    margin: 0rem;
+  .ofrecemos-conjuntodepartes .ofrecemos-partes p {
+    font-size: 1.4rem;
   }
-
-  .ofrecemos-partes img {
-    width: 4rem;
-    height: 4rem;
+  .ofrecemos-conjuntodepartes .ofrecemos-partes p strong {
+    font-size: 1.5rem;
   }
-
-  .ofrecemos-partes p {
-    padding: 0rem 0.5rem;
-    font-size: 1.2rem;
+  .productoscatalogo .clases-productos,
+  .productosindex .clases-productos {
+    padding: 0.5rem;
+    width: 27rem;
   }
-
-  .ofrecemos-partes-parrafo {
-    font-size: 1.3rem;
-  }
-
-  .productosindex h4,
-  .productoscatalogo h4 {
-    font-size: 2.8rem;
-  }
-
-  .clases-productos {
-    width: 20rem;
-    height: 36rem;
-  }
-
-  .clases-productos-nombre {
-    font-size: 1.3rem;
-    padding: 1rem 0.5rem;
-  }
-
-  .clases-productos-precio {
-    font-size: 1.7rem;
-    padding: 0.2rem;
-  }
-
-  .clases-productos-envio {
-    font-size: 1rem;
-    padding: 0.2rem;
-  }
-
-  .clases-productos-click1 {
-    font-size: 1rem;
-    padding: 0.7rem;
-  }
-
   .footer-redes {
     gap: 1rem;
+    padding: 0.5rem;
   }
-
   .informacion-galeria {
     gap: 1rem;
     padding: 5rem 0.5rem;
   }
 }
-
-@media only screen and (max-width: 1150px) {
-  .footer {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "area1 area3" "area2 ....." "area4 area4";
+@media only screen and (max-width: 1200px) {
+  .bienvenida h1 {
+    font-size: 3rem;
   }
-
-  .footer-redes-link:hover {
-    color: rgba(255, 255, 255, 0.7803921569);
-    font-size: 4rem;
-    padding: 1rem;
+  .categoria-partes a img {
+    width: 19.5rem;
   }
-
-  .informacion-galeria {
-    flex-direction: column;
-    gap: 2rem;
-    align-items: center;
+  .ofrecemos-conjuntodepartes .ofrecemos-partes {
+    justify-content: center;
   }
-
-  .informacion-galeria img {
-    width: 70%;
-    height: auto;
+  .ofrecemos-conjuntodepartes .ofrecemos-partes img {
+    width: 4.5rem;
+    height: 4.5rem;
   }
-}
-
-@media only screen and (max-width: 992px) {
-  .bg-dark {
-    height: auto;
+  .ofrecemos-conjuntodepartes .ofrecemos-partes p {
+    padding: 0.3rem;
+    font-size: 1.3rem;
   }
-
-  .navbar-brand:hover img {
-    width: 11.1rem;
-    padding: 0rem 0rem 0rem 2rem;
+  .ofrecemos-conjuntodepartes .ofrecemos-partes p strong {
+    font-size: 1.4rem;
   }
-
-  .navbar-toggler {
-    border: 0.2rem solid #19a7ce;
-    transition: 0.3s ease-out;
-    box-shadow: none;
-    font-size: 1.5rem;
-    margin: 0rem 1rem;
-  }
-
-  .navbar-toggler:focus {
-    box-shadow: 0rem 0rem 1rem #19a7ce;
-  }
-
-  .navbar-dark {
-    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2825, 167, 206, 0.90%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-  }
-
-  .menu-carrito {
-    padding: 0rem 4rem;
-  }
-
-  .dropdown-menu {
-    background-color: transparent;
-    border: none;
-    text-align: left;
-    margin: 0rem 0.6rem;
-  }
-
-  /* -----para index.html----- */
-  .ofrecemos-conjuntodepartes {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "area1 area2" "area3 area4";
-    justify-items: start;
-  }
-
   .productosindex {
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "area1 area1" "area2 area3" "area4 area5";
+    gap: 1rem;
+    padding: 4rem 2rem;
+    justify-items: center;
   }
-
-  /* -----para footer----- */
-  .footer {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "area1 area3" "area2 area2" "area4 area4";
+  .productoscatalogo .clases-productos,
+  .productosindex .clases-productos {
+    padding: 1rem;
+    width: 30rem;
   }
-
-  /* -----para productos.html----- */
-  .catalogo {
-    padding: 5rem 2rem;
-    gap: 3rem;
-  }
-
   .productoscatalogo {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     grid-template-areas: "area1 area1 area1" "area2 area3 area4" "area5 area6 area7" "area8 area8 area8";
   }
-}
-
-@media only screen and (max-width: 700px) {
-
-  /* -----para index.html----- */
-  .bienvenida h1 {
-    font-size: 2rem;
+  .informacion-galeria {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
   }
-
-  .categoria {
-    gap: 3rem;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "area1 area2" "area3 area4";
+  .informacion-galeria img {
+    width: 70%;
+    height: auto;
   }
-
-  .ofrecemos-partes p {
-    padding: 0.5rem 0.5rem;
-    font-size: 1rem;
-  }
-
-  .ofrecemos-partes-parrafo {
-    font-size: 1.1rem;
-  }
-
-  .novedades h6 {
-    font-size: 2.5rem;
-  }
-
-  .form-control {
-    width: 30rem;
-  }
-
-  /* -----para footer----- */
   .footer {
     grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "area1 area1" "area2 area2" "area3 area3" "area4 area4";
+    grid-template-areas: "area1 area3" "area2 ....." "area4 area4";
   }
-
-  /* -----para productos.html----- */
-  .catalogo {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "area1 area2" "area3 area4";
-    padding: 5rem 2rem;
-    gap: 5rem 1rem;
-  }
-
-  .productoscatalogo {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
-    grid-template-areas: "area1 area1" "area2 area3" "area4 area5" "area6 area7" "area8 area8";
-  }
-
-  .clases-productos-caja8 a {
-    padding: 1.2rem;
-    font-size: 1.8rem;
-  }
-}
-
-@media only screen and (max-width: 470px) {
-
-  /* -----para index.html----- */
-  .ofrecemos-conjuntodepartes {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "area1 area1" "area2 area2" "area3 area3" "area4 area4";
-    justify-items: center;
-  }
-
-  .ofrecemos-partes:nth-child(2n+2) {
-    flex-direction: row-reverse;
-  }
-
-  .ofrecemos-partes img {
-    width: 5rem;
-    height: 5rem;
-  }
-
-  .ofrecemos-partes p {
-    padding: 0.5rem;
-    font-size: 1.4rem;
-  }
-
-  .ofrecemos-partes-parrafo {
-    font-size: 1.5rem;
-  }
-
-  .clases-productos {
-    width: 17rem;
-    height: 34rem;
-  }
-
-  .clases-productos-click1,
-  .clases-productos-click2 {
-    font-size: 0.7rem;
-    padding: 0.7rem;
-  }
-
-  /* -----para footer----- */
-  .footer-redes-link i {
-    font-size: 3.5rem;
-    padding: 0.5rem;
-  }
-
-  /* -----para index.html----- */
-  .form-control {
-    width: 25rem;
+  .footer-redes {
+    gap: 2rem;
+    padding: 1rem;
   }
 }
 
