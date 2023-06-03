@@ -4,94 +4,102 @@
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-}
 
-.navbar-brand {
-    overflow: hidden;
-    object-fit: cover;
-}
+    .container-fluid {
+        .navbar-brand {
+            overflow: hidden;
+            object-fit: cover;
 
-.navbar-brand img {
-    width: 11rem;
-    height: auto;
-    padding: 0rem 0rem 0rem 2rem;
-    transition: 0.4s;
-}
+            img {
+                width: 11rem;
+                height: auto;
+                padding: 0rem 0rem 0rem 2rem;
+                transition: 0.4s;
 
-.navbar-brand:hover img {
-    width: 11.5rem;
-    height: auto;
-    padding: 0rem;
-}
+                &:hover {
+                    width: 11.5rem;
+                    height: auto;
+                    padding: 0rem;
+                }
+            }
+        }
 
-.navbar-nav {
-    gap: 0.5rem;
-}
+        .navbar-collapse {
+            .navbar-nav {
+                gap: 0.5rem;
 
-.nav-item {
-    transition: 0.6s ease-out;
-    padding: 0rem 0.3rem;
-    border-radius: 1rem;
-}
+                .nav-item {
+                    transition: 0.6s ease-out;
+                    padding: 0rem 0.3rem;
+                    border-radius: 1rem;
 
-.nav-item:hover {
-    background-color: #19a7ce85;
-}
+                    &:hover {
+                        background-color: #19a7ce85;
+                    }
 
-.nav-link {
-    font-size: 2.5rem;
-    color: #19a7ce;
-    transition: 0.4s ease-out;
-    text-shadow: 0.1rem 0.1rem 0.1rem #ffffff;
-}
+                    .nav-link {
+                        font-size: 2.5rem;
+                        color: #19a7ce;
+                        transition: 0.4s ease-out;
+                        text-shadow: 0.1rem 0.1rem 0.1rem #ffffff;
 
-.nav-link:hover {
-    color: #ffffff;
-    text-shadow: 0.25rem 0.15rem 0.3rem #000000;
-}
+                        &:hover,
+                        &:focus {
+                            color: #ffffff;
+                            text-shadow: 0.25rem 0.15rem 0.3rem #000000;
+                        }
 
-.nav-link i {
-    padding: 0rem 1rem;
-    text-shadow: none;
-}
+                        i {
+                            padding: 0rem 1rem;
+                            text-shadow: none;
 
-.nav-link:hover i {
-    text-shadow: 0.25rem 0.15rem 0.3rem #000000;
-}
+                            &:hover {
+                                text-shadow: 0.25rem 0.15rem 0.3rem #000000;
+                            }
+                        }
+                    }
 
-.active {
-    text-shadow: none;
-}
+                    .active {
+                        color: #ffffff;
+                        text-shadow: none;
 
-.active:hover {
-    text-shadow: 0.3rem 0.2rem 0.3rem #000000;
-}
+                        &:hover {
+                            text-shadow: 0.3rem 0.2rem 0.3rem #000000;
+                        }
+                    }
+                }
 
-.dropdown-menu {
-    background-color: #19a7ceb6;
-    font-size: 1.7rem;
-    text-align: center;
-    margin: 0rem 0.6rem;
-    padding: 0.5rem;
-}
+                .dropdown {
+                    .dropdown-menu {
+                        background-color: #19a7ceb6;
+                        font-size: 1.7rem;
+                        text-align: center;
+                        margin: 0rem 0.6rem;
+                        padding: 0.5rem;
 
-.dropdown-item {
-    color: #ffffff;
-    text-shadow: 0.25rem 0.15rem 0.3rem #000000;
-    border-radius: 0.3rem;
-    transition: 0.4s ease-out;
-    margin: 0.3rem 0rem;
-}
+                        .dropdown-item {
+                            color: #ffffff;
+                            text-shadow: 0.25rem 0.15rem 0.3rem #000000;
+                            border-radius: 0.3rem;
+                            transition: 0.4s ease-out;
+                            margin: 0.3rem 0rem;
 
-.dropdown-item:hover {
-    color: #000000;
-    text-shadow: 0.15rem 0.10rem 0.3rem #000000;
-}
+                            &:hover {
+                                color: #000000;
+                                text-shadow: 0.15rem 0.10rem 0.3rem #000000;
+                            }
+                        }
 
-.dropdown-divider {
-    margin: 0.1rem 0rem;
-}
+                        .dropdown-divider {
+                            margin: 0.1rem 0rem;
+                        }
+                    }
 
-.menu-micuenta {
-    margin: 0rem 2.3rem;
+                    .menu-micuenta {
+                        margin: 0rem 2.3rem;
+                    }
+                }
+            }
+        }
+    }
 }
