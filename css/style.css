@@ -562,7 +562,7 @@ main {
   transition: 0.2s ease-out;
 }
 .contacto-redes-caja4 .contacto-redes-link i:hover {
-  color: rgba(255, 255, 255, 0.7529411765);
+  filter: opacity(50%);
 }
 .contacto-redes-caja4 .contacto-redes-link .bi-twitter {
   color: #1da1f3;
@@ -600,10 +600,12 @@ main {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  width: 100%;
+  align-items: center;
 }
 .contacto .ubicacion-iframe-caja7 iframe {
-  width: 65rem;
-  height: 30rem;
+  width: 90%;
+  height: 40rem;
   border-radius: 2rem;
 }
 .contacto .ubicacion-iframe-caja7 p {
@@ -740,13 +742,47 @@ main {
     padding: 0.5rem;
     width: 27rem;
   }
+  .informacion-galeria {
+    gap: 1rem;
+    padding: 5rem 0.5rem;
+  }
+  .micuenta {
+    grid-template-areas: "area1 area1" "area2 area2" "area4 area4" "area3 area3" "area5 area5";
+    gap: 2rem;
+    padding: 1rem;
+  }
+  .micuenta-acceso {
+    grid-area: area4;
+    border-bottom: 0.1rem solid #ffffff;
+    width: 100%;
+    padding: 0rem 0rem 3rem 0rem;
+  }
+  .micuenta-registro {
+    width: 100%;
+  }
+  .contacto {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: "area1" "area2" "area4" "area3" "area5" "area6" "area7";
+  }
+  .contacto-redes-caja4 {
+    justify-content: center;
+    border-bottom: 0.1rem solid #ffffff;
+    width: 100%;
+  }
+  .contacto-comunicate-caja5 {
+    border-left: none;
+    border-bottom: 0.1rem solid #ffffff;
+    padding: 3rem;
+    width: 100%;
+  }
   .footer-redes {
     gap: 1rem;
     padding: 0.5rem;
   }
-  .informacion-galeria {
-    gap: 1rem;
-    padding: 5rem 0.5rem;
+  .footer-redes-link i:hover {
+    font-size: 4rem;
+    padding: 1rem;
+    filter: opacity(60%);
   }
 }
 @media only screen and (max-width: 1200px) {
@@ -812,7 +848,7 @@ main {
     height: auto;
   }
   .bg-dark .container-fluid .navbar-brand img:hover {
-    width: 11.1rem;
+    width: 11rem;
     padding: 0rem 0rem 0rem 2rem;
   }
   .bg-dark .container-fluid .navbar-toggler {
@@ -927,6 +963,18 @@ main {
   .informacion p {
     font-size: 2rem;
   }
+  .contacto-comunicate-formulario {
+    font-size: 1.8rem;
+  }
+  .contacto-comunicate-formulario .formulario-registro input {
+    width: 70%;
+  }
+  .contacto-comunicate-formulario .formulario-registro-left {
+    justify-content: left;
+  }
+  .contacto-comunicate-caja5 {
+    padding: 3rem 1rem;
+  }
   .footer {
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "area1 area1" "area2 area2" "area3 area3" "area4 area4";
@@ -985,6 +1033,12 @@ main {
   }
   .informacion {
     padding: 1rem 0.5rem;
+  }
+  .contacto-redes-caja4 {
+    gap: 1rem;
+  }
+  .contacto-redes-caja4 .contacto-redes-link i {
+    font-size: 5rem;
   }
   .footer-redes {
     gap: 0.5rem;
