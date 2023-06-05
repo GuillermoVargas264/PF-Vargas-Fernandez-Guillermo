@@ -1034,6 +1034,9 @@ main {
   .informacion {
     padding: 1rem 0.5rem;
   }
+  .contacto-comunicate-formulario {
+    font-size: 1.6rem;
+  }
   .contacto-redes-caja4 {
     gap: 1rem;
   }
