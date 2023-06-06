@@ -70,23 +70,23 @@
             }
 
             .bi-youtube {
-                color: #ff0000;
+                color: $red;
             }
 
             .bi-twitter {
-                color: #1da1f3;
+                color: $light-blue;
             }
 
             .bi-whatsapp {
-                color: #45c655;
+                color: $green;
             }
 
             .bi-facebook {
-                color: #1778f2;
+                color: $blue;
             }
 
             .bi-instagram {
-                color: #d94561;
+                color: $orange;
             }
         }
     }
@@ -94,14 +94,14 @@
     .footer-horario {
         display: flex;
         flex-direction: column;
-        border: 0.3rem solid #19A7CE;
+        border: 0.3rem solid $light-blue;
         text-align: center;
         padding: 1rem;
         margin: 1rem;
 
         h6 {
             font-size: 2.4rem;
-            color: #19A7CE;
+            color: $light-blue;
             text-decoration: underline;
             padding: 1rem;
             margin: 0rem;
@@ -118,7 +118,7 @@
 
             li {
                 font-size: 1.6rem;
-                color: #19A7CE;
+                color: $light-blue;
             }
         }
     }
@@ -129,7 +129,7 @@
         display: flex;
         text-align: center;
         font-size: 1.5rem;
-        color: #19A7CE;
+        color: $light-blue;
         margin: 0rem;
     }
 }

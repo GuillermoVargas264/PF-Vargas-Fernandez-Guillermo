@@ -2,11 +2,11 @@
 .bienvenida h1,
 .titulo-principal {
     font-size: 3.5rem;
-    color: #ffffff;
+    color: $white;
     font-weight: 500;
     padding: 3rem 2rem;
     text-align: center;
-    text-shadow: 0.25rem 0.25rem 0.1rem #000000;
+    text-shadow: 0.25rem 0.25rem 0.1rem $black;
     margin: 0rem;
 }
 
@@ -15,7 +15,7 @@
 //Tiulos para contacto y micuenta
 .titulo-articulo {
     font-size: 2.3rem;
-    color: #dddcdc;
+    color: $whitesmoke;
     text-decoration: underline;
     padding: 1rem;
 }
@@ -32,7 +32,7 @@
 //formulario para contacto y micuenta
 .contacto-comunicate-formulario {
     text-align: center;
-    color: #dddcdc;
+    color: $whitesmoke;
     font-size: 2rem;
 
     .formulario-registro {
@@ -47,25 +47,25 @@
         }
 
         &-button {
-            background-color: #ffffff71;
+            background-color: $white-trans;
             padding: 0.5rem;
             transition: 0.3s ease-out;
 
             &:hover {
-                background-color: #19a7ce85;
-                color: #ffffff;
-                text-shadow: 0.15rem 0.15rem 0.1rem #000000;
+                background-color: $light-blue-trans;
+                color: $white;
+                text-shadow: 0.15rem 0.15rem 0.1rem $black;
                 border-radius: 1rem;
             }
         }
 
         a {
             text-decoration: none;
-            color: #dddcdc;
+            color: $whitesmoke;
             transition: 0.3s ease-out;
 
             &:hover {
-                color: #19a7ceec;
+                color: $light-blue;
                 text-decoration: underline;
             }
         }
@@ -80,9 +80,9 @@
     h4 {
         grid-area: area1;
         font-size: 3.5rem;
-        color: #ffffff;
+        color: $white;
         padding: 1rem;
-        text-shadow: 0.25rem 0.25rem 0.1rem #000000;
+        text-shadow: 0.25rem 0.25rem 0.1rem $black;
         margin: 0rem;
     }
 
@@ -106,11 +106,11 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: #0000002a;
-        border: 0.1rem solid #0000005e;
+        background-color: $black-trans;
+        border: 0.1rem solid $black-trans;
         border-bottom-left-radius: 1.5rem;
         border-bottom-right-radius: 1.5rem;
-        box-shadow: 0rem 0rem 4rem #000000;
+        box-shadow: 0rem 0rem 4rem $black;
         padding: 1rem;
         width: 30rem;
         height: 53rem;
@@ -128,7 +128,7 @@
         &-nombre {
             font-size: 2rem;
             padding: 1.3rem 0.5rem;
-            color: #ffffff;
+            color: $white;
             text-decoration: none;
             cursor: pointer;
         }
@@ -136,13 +136,13 @@
         &-precio {
             font-size: 2.5rem;
             padding: 0.3rem;
-            color: #ffffff;
+            color: $white;
         }
 
         &-envio {
             font-size: 1.5rem;
             padding: 0.3rem;
-            color: #00ff00;
+            color: $green;
         }
 
         &-click {
@@ -154,15 +154,15 @@
             &1 {
                 font-size: 1.5rem;
                 padding: 1rem;
-                color: #ffffff;
-                background-color: #8f9ca079;
+                color: $white;
+                background-color: $grey;
                 border-radius: 1rem;
                 text-decoration: none;
                 transition: 0.2s;
 
                 &:hover {
-                    background-color: #19a7ce85;
-                    text-shadow: 0.25rem 0.15rem 0.1rem #000000;
+                    background-color: $light-blue-trans;
+                    text-shadow: 0.25rem 0.15rem 0.1rem $black;
                 }
             }
         }
@@ -175,19 +175,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #000000a9;
+    background-color: $dark;
     text-align: center;
     padding: 4rem;
 
     h6 {
         font-size: 3rem;
-        color: #ffffff;
+        color: $white;
         padding: 1rem;
     }
 
     p {
         font-size: 1.5rem;
-        color: #ffffff;
+        color: $white;
         padding: 1rem;
     }
 
@@ -208,12 +208,11 @@
 
         .btn-secondary {
             font-size: 1.2rem;
-            background-color: #19a7ceb6;
+            background-color: $light-blue;
             transition: 0.15s ease-out;
 
             &:hover {
-                background-color: #106f8ab6;
-                color: #d4d4d4;
+                filter: opacity(80%);
             }
         }
     }

@@ -34,19 +34,19 @@
                     border-radius: 1rem;
 
                     &:hover {
-                        background-color: #19a7ce85;
+                        background-color: $light-blue-trans;
                     }
 
                     .nav-link {
                         font-size: 2.5rem;
-                        color: #19a7ce;
+                        color: $light-blue;
                         transition: 0.4s ease-out;
-                        text-shadow: 0.1rem 0.1rem 0.1rem #ffffff;
+                        text-shadow: 0.1rem 0.1rem 0.1rem $white;
 
                         &:hover,
                         &:focus {
-                            color: #ffffff;
-                            text-shadow: 0.25rem 0.15rem 0.3rem #000000;
+                            color: $white;
+                            text-shadow: 0.25rem 0.15rem 0.3rem $black;
                         }
 
                         i {
@@ -54,39 +54,39 @@
                             text-shadow: none;
 
                             &:hover {
-                                text-shadow: 0.25rem 0.15rem 0.3rem #000000;
+                                text-shadow: 0.25rem 0.15rem 0.3rem $black;
                             }
                         }
                     }
 
                     .active {
-                        color: #ffffff;
+                        color: $white;
                         text-shadow: none;
 
                         &:hover {
-                            text-shadow: 0.3rem 0.2rem 0.3rem #000000;
+                            text-shadow: 0.3rem 0.2rem 0.3rem $black;
                         }
                     }
                 }
 
                 .dropdown {
                     .dropdown-menu {
-                        background-color: #19a7ceb6;
+                        background-color: $light-blue-trans;
                         font-size: 1.7rem;
                         text-align: center;
                         margin: 0rem 0.6rem;
                         padding: 0.5rem;
 
                         .dropdown-item {
-                            color: #ffffff;
-                            text-shadow: 0.25rem 0.15rem 0.3rem #000000;
+                            color: $white;
+                            text-shadow: 0.25rem 0.15rem 0.3rem $black;
                             border-radius: 0.3rem;
                             transition: 0.4s ease-out;
                             margin: 0.3rem 0rem;
 
                             &:hover {
-                                color: #000000;
-                                text-shadow: 0.15rem 0.10rem 0.3rem #000000;
+                                color: $black;
+                                text-shadow: 0.15rem 0.10rem 0.3rem $black;
                             }
                         }
 
