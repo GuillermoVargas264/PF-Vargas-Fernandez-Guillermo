@@ -365,7 +365,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.662745098);
+  background-color: rgba(0, 0, 0, 0.7176470588);
   text-align: center;
   padding: 4rem;
 }
@@ -409,14 +409,14 @@ main {
   grid-template-rows: auto;
   grid-template-areas: "area1 area2 area3 area4";
   justify-items: center;
-  background-color: rgba(0, 0, 0, 0.662745098);
+  background-color: rgba(0, 0, 0, 0.7176470588);
   padding: 5rem 2rem;
   gap: 1rem;
   margin: 0rem;
 }
 .catalogo-seccion a {
   color: #ffffff;
-  background-color: rgba(143, 156, 160, 0.4745098039);
+  background-color: rgba(255, 255, 255, 0.4431372549);
   font-size: 1.7rem;
   padding: 1.5rem;
   border-radius: 1rem;
@@ -474,7 +474,7 @@ main {
 }
 .productoscatalogo .clases-productos-caja8 a:hover {
   color: #ffffff;
-  background-color: rgba(25, 167, 206, 0.8);
+  background-color: #19a7ce;
   border-radius: 2rem;
   text-shadow: 0.25rem 0.15rem 0.1rem #000000;
 }
@@ -564,10 +564,10 @@ main {
   filter: opacity(50%);
 }
 .contacto-redes-caja4 .contacto-redes-link .bi-twitter {
-  color: #1da1f3;
+  color: #19a7ce;
 }
 .contacto-redes-caja4 .contacto-redes-link .bi-whatsapp {
-  color: #45c655;
+  color: #2dda41;
 }
 .contacto-redes-caja4 .contacto-redes-link .bi-facebook {
   color: #1778f2;
@@ -581,12 +581,12 @@ main {
   padding: 0rem 3rem;
 }
 .contacto-comunicate-caja5 p {
-  color: #dddcdc;
+  color: #d6d3d3;
   font-size: 1.7rem;
   text-align: center;
 }
 .contacto-comunicate-caja5 h3 {
-  color: #dddcdc;
+  color: #d6d3d3;
   font-size: 2.2rem;
   text-align: center;
   padding: 1rem;
@@ -608,7 +608,7 @@ main {
   border-radius: 2rem;
 }
 .contacto .ubicacion-iframe-caja7 p {
-  color: #dddcdc;
+  color: #d6d3d3;
   font-size: 1.5rem;
   padding: 0.1rem;
   text-align: center;
@@ -670,7 +670,7 @@ main {
 
 .ofrecemos-conjuntodepartes {
   display: grid;
-  background-color: rgba(196, 192, 192, 0.4588235294);
+  background-color: rgba(255, 255, 255, 0.4431372549);
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
   grid-template-areas: "area1 area2 area3 area4";
@@ -705,7 +705,7 @@ main {
 .ofrecemos-conjuntodepartes .ofrecemos-partes p {
   padding: 1.4rem 0.5rem;
   font-size: 1.5rem;
-  color: #141414;
+  color: rgba(0, 0, 0, 0.7176470588);
   margin: 0rem;
 }
 .ofrecemos-conjuntodepartes .ofrecemos-partes p strong {

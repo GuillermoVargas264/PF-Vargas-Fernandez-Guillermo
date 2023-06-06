@@ -36,15 +36,15 @@
         &-nombre {
             padding: 0.5rem;
             font-size: 2.5rem;
-            color: #ffffff;
+            color: $white;
             transition: 0.2s ease-out;
             text-decoration: none;
 
             &:hover {
                 padding: 0rem;
                 font-size: 3rem;
-                color: #19a7ce;
-                text-shadow: 0.1rem 0.1rem 0.1rem #ffffff;
+                color: $light-blue;
+                text-shadow: 0.1rem 0.1rem 0.1rem $white;
             }
         }
 
@@ -53,12 +53,12 @@
                 width: 23rem;
                 height: auto;
                 object-fit: cover;
-                border: 0.3rem solid #ffffff;
+                border: 0.3rem solid $white;
                 border-radius: 100%;
                 transition: 0.2s ease-out;
 
                 &:hover {
-                    border: 0.3rem solid #19a7ce;
+                    border: 0.3rem solid $light-blue;
                 }
             }
         }
@@ -67,7 +67,7 @@
 
 .ofrecemos-conjuntodepartes {
     display: grid;
-    background-color: #c4c0c075;
+    background-color: $white-trans;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
     grid-template-areas:
@@ -102,18 +102,18 @@
             width: 7rem;
             height: 7rem;
             object-fit: cover;
-            border: 0.2rem solid #000000;
+            border: 0.2rem solid $black;
             border-radius: 100%;
         }
 
         p {
             padding: 1.4rem 0.5rem;
             font-size: 1.5rem;
-            color: #141414;
+            color: $dark;
             margin: 0rem;
 
             strong {
-                color: #000000;
+                color: $black;
                 font-size: 1.6rem;
             }
         }

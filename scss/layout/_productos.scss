@@ -7,15 +7,15 @@
         'area1 area2 area3 area4'
     ;
     justify-items: center;
-    background-color: #000000a9;
+    background-color: $dark;
     padding: 5rem 2rem;
     gap: 1rem;
     margin: 0rem;
 
     &-seccion {
         a {
-            color: #ffffff;
-            background-color: #8f9ca079;
+            color: $white;
+            background-color: $white-trans;
             font-size: 1.7rem;
             padding: 1.5rem;
             border-radius: 1rem;
@@ -23,8 +23,8 @@
             transition: 0.3s ease-out;
 
             &:hover {
-                background-color: #19a7ce85;
-                text-shadow: 0.25rem 0.25rem 0.2rem #000000;
+                background-color: $light-blue-trans;
+                text-shadow: 0.25rem 0.25rem 0.2rem $black;
                 border-radius: 2rem;
             }
         }
@@ -73,23 +73,23 @@
         grid-area: area8;
         padding: 2rem;
         font-size: 1.5rem;
-        color: #ffffff;
+        color: $white;
         text-decoration: none;
 
         a {
             padding: 1.5rem;
             font-size: 2rem;
-            color: #ffffff;
+            color: $white;
             border-radius: 1rem;
-            background-color: #19a7ce85;
+            background-color: $light-blue-trans;
             text-decoration: none;
             transition: 0.3s ease-out;
 
             &:hover {
-                color: #ffffff;
-                background-color: #19a7cecc;
+                color: $white;
+                background-color: $light-blue;
                 border-radius: 2rem;
-                text-shadow: 0.25rem 0.15rem 0.1rem #000000;
+                text-shadow: 0.25rem 0.15rem 0.1rem $black;
             }
         }
     }
