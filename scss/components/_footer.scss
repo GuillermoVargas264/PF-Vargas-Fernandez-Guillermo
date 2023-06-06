@@ -1,5 +1,5 @@
 .footer {
-    @include grid(grid, center, center, 1rem, 1rem);
+    @include grid(grid, center, 1rem, 1rem);
     background-image: url('../images/fondodenav.jpg');
     background-position: center;
     background-size: cover;

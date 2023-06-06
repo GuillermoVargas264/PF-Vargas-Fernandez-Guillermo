@@ -1,5 +1,5 @@
 .catalogo {
-    @include grid(grid, center, center, 5rem 2rem, 1rem);
+    @include grid(grid, center, 5rem 2rem, 1rem);
     list-style-type: none;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
@@ -45,7 +45,7 @@
 }
 
 .productoscatalogo {
-    @include grid(grid, center, center, 4rem 2rem, 5rem 1rem);
+    @include grid(grid, center, 4rem 2rem, 5rem 1rem);
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
     grid-template-areas:

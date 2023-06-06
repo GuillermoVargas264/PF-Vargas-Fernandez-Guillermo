@@ -1,5 +1,5 @@
 .contacto {
-    @include grid(grid, center, center, 2rem 2rem 6rem 2rem, 2rem);
+    @include grid(grid, center, 2rem 2rem 6rem 2rem, 2rem);
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     grid-template-areas:

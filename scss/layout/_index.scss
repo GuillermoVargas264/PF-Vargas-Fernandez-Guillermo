@@ -1,5 +1,5 @@
 .categoria {
-    @include grid(grid, center, center, 1rem, 10rem);
+    @include grid(grid, center, 1rem, 10rem);
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
     grid-template-areas:
@@ -62,7 +62,7 @@
 }
 
 .ofrecemos-conjuntodepartes {
-    @include grid(grid, center, center, 1rem, 0.5rem);
+    @include grid(grid, center, 1rem, 0.5rem);
     background-color: $white-trans;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
@@ -114,7 +114,7 @@
 }
 
 .productosindex {
-    @include grid(grid, center, center, 4rem 2rem, 1rem);
+    @include grid(grid, center, 4rem 2rem, 1rem);
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
     grid-template-areas:
