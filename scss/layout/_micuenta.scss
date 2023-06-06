@@ -1,5 +1,5 @@
 .micuenta {
-    display: grid;
+    @include grid(grid, center, center, 2rem, 0);
     grid-template-columns: repeat(2 1fr);
     grid-template-rows: auto;
     grid-template-areas:
@@ -7,9 +7,6 @@
         'area2 area3'
         'area4 area5'
     ;
-    justify-items: center;
-    align-items: center;
-    padding: 2rem;
 
     &-caja1 {
         grid-area: area1;

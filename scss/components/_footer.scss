@@ -1,5 +1,5 @@
 .footer {
-    display: grid;
+    @include grid(grid, center, center, 1rem, 1rem);
     background-image: url('../images/fondodenav.jpg');
     background-position: center;
     background-size: cover;
@@ -10,10 +10,6 @@
         'area1 area2 area3'
         'area4 area4 area4'
     ;
-    gap: 1rem;
-    padding: 1rem;
-    justify-items: center;
-    align-items: center;
 
     &-logo-caja1 {
         grid-area: area1;

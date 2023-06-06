@@ -1,14 +1,10 @@
 .categoria {
-    display: grid;
+    @include grid(grid, center, center, 1rem, 10rem);
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
     grid-template-areas:
         'area1 area2 area3 area4'
     ;
-    justify-items: center;
-    align-items: center;
-    padding: 1rem;
-    gap: 10rem;
 
     &-partes-caja1 {
         grid-area: area1;
@@ -66,16 +62,13 @@
 }
 
 .ofrecemos-conjuntodepartes {
-    display: grid;
+    @include grid(grid, center, center, 1rem, 0.5rem);
     background-color: $white-trans;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
     grid-template-areas:
         'area1 area2 area3 area4'
     ;
-    gap: 0.5rem;
-    padding: 1rem;
-    justify-items: center;
 
     .ofrecemos-partes-caja1 {
         grid-area: area1;
@@ -121,14 +114,11 @@
 }
 
 .productosindex {
-    display: grid;
+    @include grid(grid, center, center, 4rem 2rem, 1rem);
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
     grid-template-areas:
         'area1 area1 area1 area1'
         'area2 area3 area4 area5'
     ;
-    gap: 1rem;
-    padding: 4rem 2rem;
-    justify-items: center;
 }

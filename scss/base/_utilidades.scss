@@ -1,0 +1,9 @@
+//Mixins
+@mixin grid($display, $justify, $align, $padding, $gap) {
+    display: $display;
+    justify-items: $justify;
+    align-items: $align;
+    padding: $padding;
+    gap: $gap;
+}
+

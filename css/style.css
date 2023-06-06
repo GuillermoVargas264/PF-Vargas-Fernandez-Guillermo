@@ -100,6 +100,10 @@ main {
 
 .footer {
   display: grid;
+  justify-items: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
   background-image: url("../images/fondodenav.jpg");
   background-position: center;
   background-size: cover;
@@ -107,10 +111,6 @@ main {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
   grid-template-areas: "area1 area2 area3" "area4 area4 area4";
-  gap: 1rem;
-  padding: 1rem;
-  justify-items: center;
-  align-items: center;
 }
 .footer-logo-caja1 {
   grid-area: area1;
@@ -403,15 +403,16 @@ main {
 }
 
 .catalogo {
-  list-style-type: none;
   display: grid;
+  justify-items: center;
+  align-items: center;
+  padding: 5rem 2rem;
+  gap: 1rem;
+  list-style-type: none;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
   grid-template-areas: "area1 area2 area3 area4";
-  justify-items: center;
   background-color: rgba(0, 0, 0, 0.7176470588);
-  padding: 5rem 2rem;
-  gap: 1rem;
   margin: 0rem;
 }
 .catalogo-seccion a {
@@ -443,12 +444,13 @@ main {
 
 .productoscatalogo {
   display: grid;
+  justify-items: center;
+  align-items: center;
+  padding: 4rem 2rem;
+  gap: 5rem 1rem;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
   grid-template-areas: "area1 area1 area1 area1" "area2 area3 area4 area5" "..... area6 area7 ....." "area8 area8 area8 area8";
-  gap: 5rem 1rem;
-  padding: 4rem 2rem;
-  justify-items: center;
 }
 .productoscatalogo .clases-productos-caja6 {
   grid-area: area6;
@@ -481,12 +483,13 @@ main {
 
 .micuenta {
   display: grid;
-  grid-template-columns: repeat(2 1fr);
-  grid-template-rows: auto;
-  grid-template-areas: "area1 area1" "area2 area3" "area4 area5";
   justify-items: center;
   align-items: center;
   padding: 2rem;
+  gap: 0;
+  grid-template-columns: repeat(2 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "area1 area1" "area2 area3" "area4 area5";
 }
 .micuenta-caja1 {
   grid-area: area1;
@@ -531,13 +534,13 @@ main {
 
 .contacto {
   display: grid;
+  justify-items: center;
+  align-items: center;
+  padding: 2rem 2rem 6rem 2rem;
+  gap: 2rem;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
   grid-template-areas: "area1 area1" "area2 area3" "area4 area5" "area6 area5" "area7 area5";
-  gap: 2rem;
-  padding: 2rem 2rem 6rem 2rem;
-  justify-items: center;
-  align-items: center;
 }
 .contacto-caja1 {
   grid-area: area1;
@@ -616,13 +619,13 @@ main {
 
 .categoria {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: auto;
-  grid-template-areas: "area1 area2 area3 area4";
   justify-items: center;
   align-items: center;
   padding: 1rem;
   gap: 10rem;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "area1 area2 area3 area4";
 }
 .categoria-partes-caja1 {
   grid-area: area1;
@@ -670,13 +673,14 @@ main {
 
 .ofrecemos-conjuntodepartes {
   display: grid;
+  justify-items: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 0.5rem;
   background-color: rgba(255, 255, 255, 0.4431372549);
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
   grid-template-areas: "area1 area2 area3 area4";
-  gap: 0.5rem;
-  padding: 1rem;
-  justify-items: center;
 }
 .ofrecemos-conjuntodepartes .ofrecemos-partes-caja1 {
   grid-area: area1;
@@ -715,12 +719,13 @@ main {
 
 .productosindex {
   display: grid;
+  justify-items: center;
+  align-items: center;
+  padding: 4rem 2rem;
+  gap: 1rem;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
   grid-template-areas: "area1 area1 area1 area1" "area2 area3 area4 area5";
-  gap: 1rem;
-  padding: 4rem 2rem;
-  justify-items: center;
 }
 
 @media only screen and (max-width: 1400px) {
