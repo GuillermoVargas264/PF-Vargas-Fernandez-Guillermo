@@ -198,7 +198,7 @@
                 i {
                     &:hover {
                         @include letter(4rem, 1rem, 0);
-                        filter: opacity(60%);
+                        filter:saturate(140%);
                     }
                 }
             }
