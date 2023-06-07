@@ -99,8 +99,7 @@
             &-link {
                 i {
                     &:hover {
-                        font-size: 4rem;
-                        padding: 1rem;
+                        @include letter(4rem, 1rem, 0);
                         filter: opacity(60%);
                     }
                 }
@@ -134,8 +133,7 @@
             }
 
             p {
-                padding: 0.3rem;
-                font-size: 1.3rem;
+                @include letter(1.3rem, 0.3rem, 0);
 
                 strong {
                     font-size: 1.4rem;
@@ -229,11 +227,10 @@
             }
 
             .navbar-toggler {
+                @include letter(1.5rem, 0, 0rem 1rem);
                 border: 0.2rem solid $light-blue;
                 transition: 0.3s ease-out;
                 box-shadow: none;
-                font-size: 1.5rem;
-                margin: 0rem 1rem;
 
                 &:focus {
                     box-shadow: 0rem 0rem 1rem $light-blue;
@@ -299,8 +296,7 @@
             }
 
             p {
-                padding: 1.4rem 0.5rem;
-                font-size: 1.5rem;
+                @include letter(1.5rem, 1.4rem 0.5rem, 0);
 
                 strong {
                     font-size: 1.6rem;
@@ -367,8 +363,7 @@
             }
 
             p {
-                padding: 0.3rem;
-                font-size: 1.3rem;
+                @include letter(1.3rem, 0.3rem, 0);
 
                 strong {
                     font-size: 1.4rem;
@@ -397,8 +392,7 @@
 
             &-click {
                 &1 {
-                    font-size: 1.4rem;
-                    padding: 0.5rem;
+                    @include letter(1.4rem, 0.5rem, 0);
                 }
             }
         }
@@ -490,8 +484,7 @@
             }
 
             p {
-                padding: 1.4rem 0.3rem;
-                font-size: 1.5rem;
+                @include letter(1.5rem, 1.4rem 0.3rem, 0);
 
                 strong {
                     font-size: 1.6rem;

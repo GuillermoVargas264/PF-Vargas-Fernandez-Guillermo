@@ -11,10 +11,9 @@
 
     &-seccion {
         a {
+            @include letter(1.7rem, 1.5rem, 0rem);
             color: $white;
             background-color: $white-trans;
-            font-size: 1.7rem;
-            padding: 1.5rem;
             border-radius: 1rem;
             text-decoration: none;
             transition: 0.3s ease-out;
@@ -64,15 +63,13 @@
     }
 
     .clases-productos-caja8 {
+        @include letter(1.5rem, 2rem, 0rem);
         grid-area: area8;
-        padding: 2rem;
-        font-size: 1.5rem;
         color: $white;
         text-decoration: none;
 
         a {
-            padding: 1.5rem;
-            font-size: 2rem;
+            @include letter(2rem, 1.5rem, 0rem);
             color: $white;
             border-radius: 1rem;
             background-color: $light-blue-trans;

@@ -72,10 +72,8 @@
                 .dropdown {
                     .dropdown-menu {
                         background-color: $light-blue-trans;
-                        font-size: 1.7rem;
+                        @include letter(1.7rem, 0.5rem, 0rem 0.6rem);
                         text-align: center;
-                        margin: 0rem 0.6rem;
-                        padding: 0.5rem;
 
                         .dropdown-item {
                             color: $white;

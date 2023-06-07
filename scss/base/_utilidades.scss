@@ -6,8 +6,8 @@
     gap: $gap;
 }
 
-@mixin flexbox($size, $padding, $color) {
+@mixin letter($size, $padding, $margin) {
     font-size: $size;
     padding: $padding;
-    color: $color;
+    margin: $margin;
 }

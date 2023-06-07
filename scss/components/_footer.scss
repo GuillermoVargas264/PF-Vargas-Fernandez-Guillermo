@@ -54,13 +54,11 @@
 
         &-link {
             i {
-                font-size: 4rem;
-                padding: 1rem;
+                @include letter(4rem, 1rem, 0rem);
                 transition: 0.2s ease-out;
 
                 &:hover {
-                    font-size: 5rem;
-                    padding: 0.50rem;
+                    @include letter(5rem, 0.5rem, 0rem);
                 }
             }
 
@@ -95,11 +93,9 @@
         margin: 1rem;
 
         h6 {
-            font-size: 2.4rem;
+            @include letter(2.5rem, 1rem, 0rem);
             color: $light-blue;
             text-decoration: underline;
-            padding: 1rem;
-            margin: 0rem;
         }
 
         &-list {
@@ -120,11 +116,9 @@
 
     p {
         grid-area: area4;
-        padding: 0rem 1rem 0.5rem 1rem;
         text-align: center;
         display: flex;
-        font-size: 1.5rem;
+        @include letter(1.5rem, 0rem 1rem 0.5rem 1rem, 0rem);
         color: $light-blue;
-        margin: 0rem;
     }
 }

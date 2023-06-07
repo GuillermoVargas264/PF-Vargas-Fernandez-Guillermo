@@ -6,8 +6,7 @@
     text-align: center;
 
     p {
-        font-size: 2.2rem;
-        padding: 1rem;
+        @include letter(2.2rem, 1rem, 0rem);
         color: $white;
     }
 }

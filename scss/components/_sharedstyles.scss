@@ -1,23 +1,21 @@
 //Titulos de todos los html
 .bienvenida h1,
 .titulo-principal {
-    font-size: 3.5rem;
+    @include letter(3.5rem, 3rem 2rem, 0rem);
     color: $white;
     font-weight: 500;
-    padding: 3rem 2rem;
     text-align: center;
     text-shadow: 0.25rem 0.25rem 0.1rem $black;
-    margin: 0rem;
+
 }
 
 
 //---------------------------------------------------
 //Tiulos para contacto y micuenta
 .titulo-articulo {
-    font-size: 2.3rem;
+    @include letter(2.3rem, 1rem, 0rem);
     color: $whitesmoke;
     text-decoration: underline;
-    padding: 1rem;
 }
 
 //---------------------------------------------------
@@ -79,11 +77,9 @@
 
     h4 {
         grid-area: area1;
-        font-size: 3.5rem;
+        @include letter(3.5rem, 1rem, 0rem);
         color: $white;
-        padding: 1rem;
         text-shadow: 0.25rem 0.25rem 0.1rem $black;
-        margin: 0rem;
     }
 
     .clases-productos-caja2 {
@@ -126,22 +122,19 @@
         }
 
         &-nombre {
-            font-size: 2rem;
-            padding: 1.3rem 0.5rem;
+            @include letter(2rem, 1.3rem 0.5rem, 0rem);
             color: $white;
             text-decoration: none;
             cursor: pointer;
         }
 
         &-precio {
-            font-size: 2.5rem;
-            padding: 0.3rem;
+            @include letter(2.5rem, 0.3rem, 0rem);
             color: $white;
         }
 
         &-envio {
-            font-size: 1.5rem;
-            padding: 0.3rem;
+            @include letter(1.5rem, 0.3rem, 0rem);
             color: $green;
         }
 
@@ -152,8 +145,7 @@
             padding: 0.5rem;
 
             &1 {
-                font-size: 1.5rem;
-                padding: 1rem;
+                @include letter(1.5rem, 1rem, 0rem);
                 color: $white;
                 background-color: $grey;
                 border-radius: 1rem;
@@ -180,15 +172,13 @@
     padding: 4rem;
 
     h6 {
-        font-size: 3rem;
+        @include letter(3rem, 1rem, 0rem);
         color: $white;
-        padding: 1rem;
     }
 
     p {
-        font-size: 1.5rem;
+        @include letter(1.5rem, 1rem, 0rem);
         color: $white;
-        padding: 1rem;
     }
 
     &-form {

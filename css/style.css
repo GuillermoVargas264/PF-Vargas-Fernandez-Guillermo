@@ -76,9 +76,9 @@ main {
 .bg-dark .container-fluid .navbar-collapse .navbar-nav .dropdown .dropdown-menu {
   background-color: rgba(25, 167, 206, 0.5215686275);
   font-size: 1.7rem;
-  text-align: center;
-  margin: 0rem 0.6rem;
   padding: 0.5rem;
+  margin: 0rem 0.6rem;
+  text-align: center;
 }
 .bg-dark .container-fluid .navbar-collapse .navbar-nav .dropdown .dropdown-menu .dropdown-item {
   color: #ffffff;
@@ -147,11 +147,13 @@ main {
 .footer-redes-link i {
   font-size: 4rem;
   padding: 1rem;
+  margin: 0rem;
   transition: 0.2s ease-out;
 }
 .footer-redes-link i:hover {
   font-size: 5rem;
   padding: 0.5rem;
+  margin: 0rem;
 }
 .footer-redes-link .bi-youtube {
   color: #ff0000;
@@ -177,11 +179,11 @@ main {
   margin: 1rem;
 }
 .footer .footer-horario h6 {
-  font-size: 2.4rem;
-  color: #19a7ce;
-  text-decoration: underline;
+  font-size: 2.5rem;
   padding: 1rem;
   margin: 0rem;
+  color: #19a7ce;
+  text-decoration: underline;
 }
 .footer .footer-horario-list {
   display: flex;
@@ -198,30 +200,31 @@ main {
 }
 .footer p {
   grid-area: area4;
-  padding: 0rem 1rem 0.5rem 1rem;
   text-align: center;
   display: flex;
   font-size: 1.5rem;
-  color: #19a7ce;
+  padding: 0rem 1rem 0.5rem 1rem;
   margin: 0rem;
+  color: #19a7ce;
 }
 
 .bienvenida h1,
 .titulo-principal {
   font-size: 3.5rem;
+  padding: 3rem 2rem;
+  margin: 0rem;
   color: #ffffff;
   font-weight: 500;
-  padding: 3rem 2rem;
   text-align: center;
   text-shadow: 0.25rem 0.25rem 0.1rem #000000;
-  margin: 0rem;
 }
 
 .titulo-articulo {
   font-size: 2.3rem;
+  padding: 1rem;
+  margin: 0rem;
   color: #d6d3d3;
   text-decoration: underline;
-  padding: 1rem;
 }
 
 .carousel-control-next-icon,
@@ -270,10 +273,10 @@ main {
 .productosindex h4 {
   grid-area: area1;
   font-size: 3.5rem;
-  color: #ffffff;
   padding: 1rem;
-  text-shadow: 0.25rem 0.25rem 0.1rem #000000;
   margin: 0rem;
+  color: #ffffff;
+  text-shadow: 0.25rem 0.25rem 0.1rem #000000;
 }
 .productoscatalogo .clases-productos-caja2,
 .productosindex .clases-productos-caja2 {
@@ -319,6 +322,7 @@ main {
 .productosindex .clases-productos-nombre {
   font-size: 2rem;
   padding: 1.3rem 0.5rem;
+  margin: 0rem;
   color: #ffffff;
   text-decoration: none;
   cursor: pointer;
@@ -327,12 +331,14 @@ main {
 .productosindex .clases-productos-precio {
   font-size: 2.5rem;
   padding: 0.3rem;
+  margin: 0rem;
   color: #ffffff;
 }
 .productoscatalogo .clases-productos-envio,
 .productosindex .clases-productos-envio {
   font-size: 1.5rem;
   padding: 0.3rem;
+  margin: 0rem;
   color: #2dda41;
 }
 .productoscatalogo .clases-productos-click,
@@ -346,6 +352,7 @@ main {
 .productosindex .clases-productos-click1 {
   font-size: 1.5rem;
   padding: 1rem;
+  margin: 0rem;
   color: #ffffff;
   background-color: rgba(143, 156, 160, 0.4745098039);
   border-radius: 1rem;
@@ -368,13 +375,15 @@ main {
 }
 .novedades h6 {
   font-size: 3rem;
-  color: #ffffff;
   padding: 1rem;
+  margin: 0rem;
+  color: #ffffff;
 }
 .novedades p {
   font-size: 1.5rem;
-  color: #ffffff;
   padding: 1rem;
+  margin: 0rem;
+  color: #ffffff;
 }
 .novedades-form {
   display: flex;
@@ -411,10 +420,11 @@ main {
   margin: 0rem;
 }
 .catalogo-seccion a {
-  color: #ffffff;
-  background-color: rgba(255, 255, 255, 0.4431372549);
   font-size: 1.7rem;
   padding: 1.5rem;
+  margin: 0rem;
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.4431372549);
   border-radius: 1rem;
   text-decoration: none;
   transition: 0.3s ease-out;
@@ -453,15 +463,17 @@ main {
   grid-area: area7;
 }
 .productoscatalogo .clases-productos-caja8 {
-  grid-area: area8;
-  padding: 2rem;
   font-size: 1.5rem;
+  padding: 2rem;
+  margin: 0rem;
+  grid-area: area8;
   color: #ffffff;
   text-decoration: none;
 }
 .productoscatalogo .clases-productos-caja8 a {
-  padding: 1.5rem;
   font-size: 2rem;
+  padding: 1.5rem;
+  margin: 0rem;
   color: #ffffff;
   border-radius: 1rem;
   background-color: rgba(25, 167, 206, 0.5215686275);
@@ -510,6 +522,7 @@ main {
 .informacion p {
   font-size: 2.2rem;
   padding: 1rem;
+  margin: 0rem;
   color: #ffffff;
 }
 
@@ -552,6 +565,7 @@ main {
 .contacto-redes-caja4 .contacto-redes-link i {
   font-size: 6rem;
   padding: 1rem;
+  margin: 0rem;
   transition: 0.2s ease-out;
 }
 .contacto-redes-caja4 .contacto-redes-link i:hover {
@@ -580,10 +594,11 @@ main {
   text-align: center;
 }
 .contacto-comunicate-caja5 h3 {
-  color: #d6d3d3;
   font-size: 2.2rem;
-  text-align: center;
   padding: 1rem;
+  margin: 0rem;
+  color: #d6d3d3;
+  text-align: center;
 }
 .contacto-caja6 {
   grid-area: area6;
@@ -602,9 +617,10 @@ main {
   border-radius: 2rem;
 }
 .contacto .ubicacion-iframe-caja7 p {
-  color: #d6d3d3;
   font-size: 1.5rem;
   padding: 0.1rem;
+  margin: 0rem;
+  color: #d6d3d3;
   text-align: center;
 }
 
@@ -637,15 +653,17 @@ main {
   padding: 0.5rem;
 }
 .categoria-partes-nombre {
-  padding: 0.5rem;
   font-size: 2.5rem;
+  padding: 0.5rem;
+  margin: 0rem;
   color: #ffffff;
   transition: 0.2s ease-out;
   text-decoration: none;
 }
 .categoria-partes-nombre:hover {
-  padding: 0rem;
   font-size: 3rem;
+  padding: 0rem;
+  margin: 0rem;
   color: #19a7ce;
   text-shadow: 0.1rem 0.1rem 0.1rem #ffffff;
 }
@@ -696,10 +714,10 @@ main {
   border-radius: 100%;
 }
 .ofrecemos-conjuntodepartes .ofrecemos-partes p {
-  padding: 1.4rem 0.5rem;
   font-size: 1.5rem;
-  color: rgba(0, 0, 0, 0.7176470588);
+  padding: 1.4rem 0.5rem;
   margin: 0rem;
+  color: rgba(0, 0, 0, 0.7176470588);
 }
 .ofrecemos-conjuntodepartes .ofrecemos-partes p strong {
   color: #000000;
@@ -774,6 +792,7 @@ main {
   .footer-redes-link i:hover {
     font-size: 4rem;
     padding: 1rem;
+    margin: 0;
     filter: opacity(60%);
   }
 }
@@ -789,8 +808,9 @@ main {
     height: 4.5rem;
   }
   .ofrecemos-conjuntodepartes .ofrecemos-partes p {
-    padding: 0.3rem;
     font-size: 1.3rem;
+    padding: 0.3rem;
+    margin: 0;
   }
   .ofrecemos-conjuntodepartes .ofrecemos-partes p strong {
     font-size: 1.4rem;
@@ -840,11 +860,12 @@ main {
     padding: 0rem 0rem 0rem 2rem;
   }
   .bg-dark .container-fluid .navbar-toggler {
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0rem 1rem;
     border: 0.2rem solid #19a7ce;
     transition: 0.3s ease-out;
     box-shadow: none;
-    font-size: 1.5rem;
-    margin: 0rem 1rem;
   }
   .bg-dark .container-fluid .navbar-toggler:focus {
     box-shadow: 0rem 0rem 1rem #19a7ce;
@@ -883,8 +904,9 @@ main {
     height: 7rem;
   }
   .ofrecemos-conjuntodepartes .ofrecemos-partes p {
-    padding: 1.4rem 0.5rem;
     font-size: 1.5rem;
+    padding: 1.4rem 0.5rem;
+    margin: 0;
   }
   .ofrecemos-conjuntodepartes .ofrecemos-partes p strong {
     font-size: 1.6rem;
@@ -917,8 +939,9 @@ main {
     height: 4.5rem;
   }
   .ofrecemos-conjuntodepartes .ofrecemos-partes p {
-    padding: 0.3rem;
     font-size: 1.3rem;
+    padding: 0.3rem;
+    margin: 0;
   }
   .ofrecemos-conjuntodepartes .ofrecemos-partes p strong {
     font-size: 1.4rem;
@@ -941,6 +964,7 @@ main {
   .productosindex .clases-productos-click1 {
     font-size: 1.4rem;
     padding: 0.5rem;
+    margin: 0;
   }
   .catalogo-seccion a {
     font-size: 1.5rem;
@@ -986,8 +1010,9 @@ main {
     height: 7rem;
   }
   .ofrecemos-conjuntodepartes .ofrecemos-partes p {
-    padding: 1.4rem 0.3rem;
     font-size: 1.5rem;
+    padding: 1.4rem 0.3rem;
+    margin: 0;
   }
   .ofrecemos-conjuntodepartes .ofrecemos-partes p strong {
     font-size: 1.6rem;
