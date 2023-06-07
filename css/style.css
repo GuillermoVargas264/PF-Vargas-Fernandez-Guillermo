@@ -143,6 +143,7 @@ main {
   list-style-type: none;
   margin: 0rem;
   flex-wrap: wrap;
+  align-items: center;
 }
 .footer-redes-link i {
   font-size: 4rem;
@@ -789,12 +790,6 @@ main {
     gap: 1rem;
     padding: 0.5rem;
   }
-  .footer-redes-link i:hover {
-    font-size: 4rem;
-    padding: 1rem;
-    margin: 0;
-    filter: opacity(60%);
-  }
 }
 @media only screen and (max-width: 1200px) {
   .bienvenida h1 {
@@ -847,6 +842,12 @@ main {
     gap: 2rem;
     padding: 1rem;
   }
+  .footer-redes-link i:hover {
+    font-size: 4rem;
+    padding: 1rem;
+    margin: 0;
+    filter: opacity(60%);
+  }
 }
 @media only screen and (max-width: 992px) {
   .navbar-dark {
@@ -861,7 +862,7 @@ main {
   }
   .bg-dark .container-fluid .navbar-toggler {
     font-size: 1.5rem;
-    padding: 0;
+    padding: 0.2rem;
     margin: 0rem 1rem;
     border: 0.2rem solid #19a7ce;
     transition: 0.3s ease-out;
@@ -945,6 +946,13 @@ main {
   }
   .ofrecemos-conjuntodepartes .ofrecemos-partes p strong {
     font-size: 1.4rem;
+  }
+  .footer-logo:hover {
+    padding: 1rem;
+  }
+  .footer-logo img:hover {
+    width: 30rem;
+    filter: saturate(140%);
   }
   .productoscatalogo h4,
   .productosindex h4 {

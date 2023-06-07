@@ -95,15 +95,6 @@
         &-redes {
             gap: 1rem;
             padding: 0.5rem;
-
-            &-link {
-                i {
-                    &:hover {
-                        @include letter(4rem, 1rem, 0);
-                        filter: opacity(60%);
-                    }
-                }
-            }
         }
     }
 }
@@ -202,6 +193,15 @@
         &-redes {
             gap: 2rem;
             padding: 1rem;
+
+            &-link {
+                i {
+                    &:hover {
+                        @include letter(4rem, 1rem, 0);
+                        filter: opacity(60%);
+                    }
+                }
+            }
         }
     }
 }
@@ -227,7 +227,7 @@
             }
 
             .navbar-toggler {
-                @include letter(1.5rem, 0, 0rem 1rem);
+                @include letter(1.5rem, 0.2rem, 0rem 1rem);
                 border: 0.2rem solid $light-blue;
                 transition: 0.3s ease-out;
                 box-shadow: none;
@@ -367,6 +367,23 @@
 
                 strong {
                     font-size: 1.4rem;
+                }
+            }
+        }
+    }
+
+    //---------------------------------------------------
+    //para Footer
+    .footer {
+        &-logo {
+            &:hover {
+                padding: 1rem;
+            }
+
+            img {
+                &:hover {
+                    width: 30rem;
+                    filter:saturate(140%);
                 }
             }
         }
