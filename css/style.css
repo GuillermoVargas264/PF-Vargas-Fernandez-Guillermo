@@ -233,7 +233,7 @@ main {
   animation-name: animacion;
   animation-iteration-count: 1;
   animation-timing-function: linear;
-  animation-duration: 1.5s;
+  animation-duration: 1s;
   transform: scale(1);
 }
 
@@ -243,11 +243,6 @@ main {
   margin: 0rem;
   color: #d6d3d3;
   text-decoration: underline;
-  animation-name: animacion;
-  animation-iteration-count: 1;
-  animation-timing-function: linear;
-  animation-duration: 1.5s;
-  transform: scale(1);
 }
 
 .carousel-control-next-icon,
@@ -307,11 +302,6 @@ main {
   margin: 0rem;
   color: #ffffff;
   text-shadow: 0.25rem 0.25rem 0.1rem #000000;
-  animation-name: animacion;
-  animation-iteration-count: 1;
-  animation-timing-function: linear;
-  animation-duration: 1.5s;
-  transform: scale(1);
 }
 .productoscatalogo .clases-productos-caja2,
 .productosindex .clases-productos-caja2 {
@@ -467,11 +457,6 @@ main {
 }
 .catalogo-seccion {
   transition: 0.4s;
-  animation-name: animacion;
-  animation-iteration-count: 1;
-  animation-timing-function: linear;
-  animation-duration: 1.5s;
-  transform: scale(1);
 }
 .catalogo-seccion:hover {
   transform: scale(1.2, 1.2);
@@ -715,11 +700,6 @@ main {
   text-align: center;
   overflow: hidden;
   padding: 0.5rem;
-  animation-name: animacion;
-  animation-iteration-count: 1;
-  animation-timing-function: linear;
-  animation-duration: 1.5s;
-  transform: scale(1);
 }
 .categoria-partes-nombre {
   font-size: 2.5rem;

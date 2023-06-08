@@ -9,11 +9,8 @@
     background-color: $dark;
     margin: 0rem;
 
-
     &-seccion {
         transition: 0.4s;
-        @include animaciones;
-
 
         &:hover {
             transform: scale(1.2, 1.2);
@@ -26,7 +23,6 @@
             border-radius: 1rem;
             text-decoration: none;
             transition: 0.3s ease-out;
-
 
             &:hover {
                 background-color: $light-blue-trans;
