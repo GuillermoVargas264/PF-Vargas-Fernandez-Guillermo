@@ -32,8 +32,8 @@
             transition: 0.4s ease-out;
 
             &:hover {
-                transform: scale(1.1,1.1);
-                filter:saturate(120%);
+                transform: scale(1.1, 1.1);
+                filter: saturate(120%);
             }
         }
     }
@@ -48,34 +48,39 @@
         flex-wrap: wrap;
         align-items: center;
 
-        &-link {
-            i {
-                @include letter(4rem, 1rem, 0rem);
-                transition: 0.2s ease-out;
+        &-list {
+            transition: 0.2s ease-out;
 
-                &:hover {
-                    @include letter(5rem, 0.5rem, 0rem);
+            &:hover {
+                transform: scale(1.3, 1.3);
+                filter: saturate(140%);
+            }
+
+            &-link {
+                i {
+                    @include letter(4rem, 1rem, 0rem);
+                    transition: 0.2s ease-out;
                 }
-            }
 
-            .bi-youtube {
-                color: $red;
-            }
+                .bi-youtube {
+                    color: $red;
+                }
 
-            .bi-twitter {
-                color: $light-blue;
-            }
+                .bi-twitter {
+                    color: $light-blue;
+                }
 
-            .bi-whatsapp {
-                color: $green;
-            }
+                .bi-whatsapp {
+                    color: $green;
+                }
 
-            .bi-facebook {
-                color: $blue;
-            }
+                .bi-facebook {
+                    color: $blue;
+                }
 
-            .bi-instagram {
-                color: $orange;
+                .bi-instagram {
+                    color: $orange;
+                }
             }
         }
     }

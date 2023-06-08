@@ -29,30 +29,33 @@
         padding: 5rem 1rem;
         list-style-type: none;
 
-        .contacto-redes-link {
-            i {
-                @include letter(6rem, 1rem, 0rem);
-                transition: 0.2s ease-out;
+        li {
+            transition: 0.3s ease-in-out;
 
-                &:hover {
-                    filter: opacity(50%);
+            &:hover {
+                transform: scale(1.2, 1.2);
+            }
+
+            .redes-link {
+                i {
+                    @include letter(6rem, 1rem, 0rem);
                 }
-            }
 
-            .bi-twitter {
-                color: $light-blue;
-            }
+                .bi-twitter {
+                    color: $light-blue;
+                }
 
-            .bi-whatsapp {
-                color: $green;
-            }
+                .bi-whatsapp {
+                    color: $green;
+                }
 
-            .bi-facebook {
-                color: $blue;
-            }
+                .bi-facebook {
+                    color: $blue;
+                }
 
-            .bi-instagram {
-                color: $orange;
+                .bi-instagram {
+                    color: $orange;
+                }
             }
         }
     }

@@ -9,7 +9,14 @@
     background-color: $dark;
     margin: 0rem;
 
+
     &-seccion {
+        transition: 0.4s;
+
+        &:hover {
+            transform: scale(1.2, 1.2);
+        }
+
         a {
             @include letter(1.7rem, 1.5rem, 0rem);
             color: $white;
@@ -68,6 +75,11 @@
         grid-area: area8;
         color: $white;
         text-decoration: none;
+        transition: 0.3s ease-out;
+
+        &:hover {
+            transform: translateY(-15%);
+        }
 
         a {
             @include letter(2rem, 1.5rem, 0rem);
@@ -79,7 +91,6 @@
 
             &:hover {
                 color: $white;
-                background-color: $light-blue;
                 border-radius: 2rem;
                 text-shadow: 0.25rem 0.15rem 0.1rem $black;
             }

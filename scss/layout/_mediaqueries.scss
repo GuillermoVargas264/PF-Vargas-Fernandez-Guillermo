@@ -193,15 +193,6 @@
         &-redes {
             gap: 2rem;
             padding: 1rem;
-
-            &-link {
-                i {
-                    &:hover {
-                        @include letter(4rem, 1rem, 0);
-                        filter:saturate(140%);
-                    }
-                }
-            }
         }
     }
 }
@@ -570,11 +561,13 @@
     //para Contacto
     .contacto {
         &-redes-caja4 {
-            gap: 1rem;
+            gap: 0.5rem;
 
-            .contacto-redes-link {
-                i {
-                    font-size: 5rem;
+            li {
+                .redes-link {
+                    i {
+                        font-size: 5rem;
+                    }
                 }
             }
         }
