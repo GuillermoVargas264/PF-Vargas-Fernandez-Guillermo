@@ -20,6 +20,7 @@
 
             &:hover {
                 background-color: $light-blue-trans;
+                transform: scale(1.12, 1.12);
                 text-shadow: 0.25rem 0.25rem 0.2rem $black;
                 border-radius: 2rem;
             }

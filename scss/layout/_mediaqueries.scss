@@ -220,7 +220,6 @@
             .navbar-brand {
                 img {
                     &:hover {
-                        width: 11rem;
                         padding: 0rem 0rem 0rem 2rem;
                     }
                 }
@@ -367,23 +366,6 @@
 
                 strong {
                     font-size: 1.4rem;
-                }
-            }
-        }
-    }
-
-    //---------------------------------------------------
-    //para Footer
-    .footer {
-        &-logo {
-            &:hover {
-                padding: 1rem;
-            }
-
-            img {
-                &:hover {
-                    width: 30rem;
-                    filter:saturate(140%);
                 }
             }
         }

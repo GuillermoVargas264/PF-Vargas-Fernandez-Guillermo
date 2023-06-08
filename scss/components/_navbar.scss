@@ -9,17 +9,21 @@
         .navbar-brand {
             overflow: hidden;
             object-fit: cover;
+            transition: 0.4s ease-out;
+
+            &:hover {
+                transform: scale(1.12, 1.12);
+                filter: saturate(135%);
+            }
 
             img {
                 width: 11rem;
                 height: auto;
                 padding: 0rem 0rem 0rem 2rem;
-                transition: 0.4s;
+                transition: 0.4s ease-out;
 
                 &:hover {
-                    width: 11.5rem;
-                    height: auto;
-                    padding: 0rem;
+                    padding: 0rem 0rem 0rem 1rem;
                 }
             }
         }

@@ -25,20 +25,15 @@
 
     &-logo {
         display: flex;
-        padding: 1rem;
-        transition: 0.3s ease-out;
-
-
-        &:hover {
-            padding: 0rem;
-        }
+        padding: 0.5rem;
 
         img {
             width: 30rem;
-            transition: 0.3s ease-out;
+            transition: 0.4s ease-out;
 
             &:hover {
-                width: 32rem;
+                transform: scale(1.1,1.1);
+                filter:saturate(120%);
             }
         }
     }

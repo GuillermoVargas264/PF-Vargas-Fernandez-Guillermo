@@ -26,17 +26,20 @@ main {
 .bg-dark .container-fluid .navbar-brand {
   overflow: hidden;
   object-fit: cover;
+  transition: 0.4s ease-out;
+}
+.bg-dark .container-fluid .navbar-brand:hover {
+  transform: scale(1.12, 1.12);
+  filter: saturate(135%);
 }
 .bg-dark .container-fluid .navbar-brand img {
   width: 11rem;
   height: auto;
   padding: 0rem 0rem 0rem 2rem;
-  transition: 0.4s;
+  transition: 0.4s ease-out;
 }
 .bg-dark .container-fluid .navbar-brand img:hover {
-  width: 11.5rem;
-  height: auto;
-  padding: 0rem;
+  padding: 0rem 0rem 0rem 1rem;
 }
 .bg-dark .container-fluid .navbar-collapse .navbar-nav {
   gap: 0.5rem;
@@ -122,18 +125,15 @@ main {
 }
 .footer-logo {
   display: flex;
-  padding: 1rem;
-  transition: 0.3s ease-out;
-}
-.footer-logo:hover {
-  padding: 0rem;
+  padding: 0.5rem;
 }
 .footer-logo img {
   width: 30rem;
-  transition: 0.3s ease-out;
+  transition: 0.4s ease-out;
 }
 .footer-logo img:hover {
-  width: 32rem;
+  transform: scale(1.1, 1.1);
+  filter: saturate(120%);
 }
 .footer-redes {
   display: flex;
@@ -432,6 +432,7 @@ main {
 }
 .catalogo-seccion a:hover {
   background-color: rgba(25, 167, 206, 0.5215686275);
+  transform: scale(1.12, 1.12);
   text-shadow: 0.25rem 0.25rem 0.2rem #000000;
   border-radius: 2rem;
 }
@@ -562,6 +563,7 @@ main {
   display: flex;
   gap: 3rem;
   padding: 5rem 1rem;
+  list-style-type: none;
 }
 .contacto-redes-caja4 .contacto-redes-link i {
   font-size: 6rem;
@@ -846,7 +848,7 @@ main {
     font-size: 4rem;
     padding: 1rem;
     margin: 0;
-    filter: opacity(60%);
+    filter: saturate(140%);
   }
 }
 @media only screen and (max-width: 992px) {
@@ -857,7 +859,6 @@ main {
     height: auto;
   }
   .bg-dark .container-fluid .navbar-brand img:hover {
-    width: 11rem;
     padding: 0rem 0rem 0rem 2rem;
   }
   .bg-dark .container-fluid .navbar-toggler {
@@ -946,13 +947,6 @@ main {
   }
   .ofrecemos-conjuntodepartes .ofrecemos-partes p strong {
     font-size: 1.4rem;
-  }
-  .footer-logo:hover {
-    padding: 1rem;
-  }
-  .footer-logo img:hover {
-    width: 30rem;
-    filter: saturate(140%);
   }
   .productoscatalogo h4,
   .productosindex h4 {
