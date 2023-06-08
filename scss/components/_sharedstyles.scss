@@ -6,7 +6,7 @@
     font-weight: 500;
     text-align: center;
     text-shadow: 0.25rem 0.25rem 0.1rem $black;
-
+    @include animaciones;
 }
 
 
@@ -16,6 +16,7 @@
     @include letter(2.3rem, 1rem, 0rem);
     color: $whitesmoke;
     text-decoration: underline;
+    @include animaciones;
 }
 
 //---------------------------------------------------
@@ -91,6 +92,7 @@
         @include letter(3.5rem, 1rem, 0rem);
         color: $white;
         text-shadow: 0.25rem 0.25rem 0.1rem $black;
+        @include animaciones;
     }
 
     .clases-productos-caja2 {

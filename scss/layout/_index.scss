@@ -28,6 +28,7 @@
         text-align: center;
         overflow: hidden;
         padding: 0.5rem;
+        @include animaciones;
 
         &-nombre {
             @include letter(2.5rem, 0.5rem, 0rem);

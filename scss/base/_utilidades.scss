@@ -11,3 +11,11 @@
     padding: $padding;
     margin: $margin;
 }
+
+@mixin animaciones {
+    animation-name: animacion;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-duration: 1.5s;
+    transform: scale(1);
+}

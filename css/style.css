@@ -16,6 +16,16 @@ main {
   background-color: #3a3a3d;
 }
 
+@keyframes animacion {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
 .bg-dark {
   height: 12rem;
   background-image: url("../images/fondodenav.jpg");
@@ -220,6 +230,11 @@ main {
   font-weight: 500;
   text-align: center;
   text-shadow: 0.25rem 0.25rem 0.1rem #000000;
+  animation-name: animacion;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-duration: 1.5s;
+  transform: scale(1);
 }
 
 .titulo-articulo {
@@ -228,6 +243,11 @@ main {
   margin: 0rem;
   color: #d6d3d3;
   text-decoration: underline;
+  animation-name: animacion;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-duration: 1.5s;
+  transform: scale(1);
 }
 
 .carousel-control-next-icon,
@@ -287,6 +307,11 @@ main {
   margin: 0rem;
   color: #ffffff;
   text-shadow: 0.25rem 0.25rem 0.1rem #000000;
+  animation-name: animacion;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-duration: 1.5s;
+  transform: scale(1);
 }
 .productoscatalogo .clases-productos-caja2,
 .productosindex .clases-productos-caja2 {
@@ -442,6 +467,11 @@ main {
 }
 .catalogo-seccion {
   transition: 0.4s;
+  animation-name: animacion;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-duration: 1.5s;
+  transform: scale(1);
 }
 .catalogo-seccion:hover {
   transform: scale(1.2, 1.2);
@@ -685,6 +715,11 @@ main {
   text-align: center;
   overflow: hidden;
   padding: 0.5rem;
+  animation-name: animacion;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-duration: 1.5s;
+  transform: scale(1);
 }
 .categoria-partes-nombre {
   font-size: 2.5rem;
