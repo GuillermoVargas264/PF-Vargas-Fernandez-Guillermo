@@ -93,9 +93,7 @@
         padding: 1rem;
         margin: 1rem;
 
-        h4,
-        h3,
-        h5 {
+        h4, h3, h5 {
             @include letter(2.5rem, 1rem, 0rem);
             color: $light-blue;
             text-decoration: underline;
