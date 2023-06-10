@@ -276,7 +276,6 @@
         ;
         justify-items: start;
 
-
         .ofrecemos-partes {
             justify-content: space-between;
 
@@ -367,7 +366,7 @@
     .productoscatalogo,
     .productosindex {
 
-        h4 {
+        h2 {
             font-size: 3rem;
         }
 
@@ -498,7 +497,8 @@
     .novedades {
         padding: 4rem 1rem;
 
-        h6 {
+        h3,
+        h2 {
             font-size: 2.5rem;
         }
 
@@ -514,7 +514,7 @@
     .productoscatalogo,
     .productosindex {
 
-        h4 {
+        h2 {
             font-size: 2.7rem;
         }
     }

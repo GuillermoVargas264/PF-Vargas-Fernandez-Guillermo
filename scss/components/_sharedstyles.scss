@@ -9,7 +9,6 @@
     @include animaciones;
 }
 
-
 //---------------------------------------------------
 //Tiulos para contacto y micuenta
 .titulo-articulo {
@@ -86,7 +85,7 @@
 .productoscatalogo,
 .productosindex {
 
-    h4 {
+    h2 {
         grid-area: area1;
         @include letter(3.5rem, 1rem, 0rem);
         color: $white;
@@ -193,7 +192,8 @@
     text-align: center;
     padding: 4rem;
 
-    h6 {
+    h3,
+    h2 {
         @include letter(3rem, 1rem, 0rem);
         color: $white;
     }
