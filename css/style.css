@@ -901,16 +901,19 @@ nav .bg-dark .container-fluid .navbar-collapse .navbar-nav .dropdown .menu-micue
   }
 }
 @media only screen and (max-width: 992px) {
-  .navbar-dark {
+  nav {
+    height: 10.6rem;
+  }
+  nav .navbar-dark {
     --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2825, 167, 206, 0.90%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
   }
-  .bg-dark {
+  nav .bg-dark {
     height: auto;
   }
-  .bg-dark .container-fluid .navbar-brand img:hover {
+  nav .bg-dark .container-fluid .navbar-brand img:hover {
     padding: 0rem 0rem 0rem 2rem;
   }
-  .bg-dark .container-fluid .navbar-toggler {
+  nav .bg-dark .container-fluid .navbar-toggler {
     font-size: 1.5rem;
     padding: 0.2rem;
     margin: 0rem 1rem;
@@ -918,10 +921,10 @@ nav .bg-dark .container-fluid .navbar-collapse .navbar-nav .dropdown .menu-micue
     transition: 0.3s ease-out;
     box-shadow: none;
   }
-  .bg-dark .container-fluid .navbar-toggler:focus {
+  nav .bg-dark .container-fluid .navbar-toggler:focus {
     box-shadow: 0rem 0rem 1rem #19a7ce;
   }
-  .bg-dark .container-fluid .navbar-collapse .navbar-nav .dropdown .dropdown-menu {
+  nav .bg-dark .container-fluid .navbar-collapse .navbar-nav .dropdown .dropdown-menu {
     background-color: transparent;
     border: none;
     text-align: left;
@@ -1074,7 +1077,8 @@ nav .bg-dark .container-fluid .navbar-collapse .navbar-nav .dropdown .menu-micue
   .novedades {
     padding: 4rem 1rem;
   }
-  .novedades h3, .novedades h2 {
+  .novedades h3,
+  .novedades h2 {
     font-size: 2.5rem;
   }
   .novedades-form .form-control {
