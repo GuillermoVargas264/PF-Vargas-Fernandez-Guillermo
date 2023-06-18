@@ -66,7 +66,7 @@ nav .bg-dark .container-fluid .navbar-collapse .navbar-nav .nav-item {
   border-radius: 1rem;
 }
 nav .bg-dark .container-fluid .navbar-collapse .navbar-nav .nav-item:hover {
-  background-color: rgba(25, 167, 206, 0.5215686275);
+  background-color: rgba(25, 167, 206, 0.631372549);
 }
 nav .bg-dark .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link {
   font-size: 2.5rem;
@@ -93,7 +93,7 @@ nav .bg-dark .container-fluid .navbar-collapse .navbar-nav .nav-item .active:hov
   text-shadow: 0.3rem 0.2rem 0.3rem #000000;
 }
 nav .bg-dark .container-fluid .navbar-collapse .navbar-nav .dropdown .dropdown-menu {
-  background-color: rgba(25, 167, 206, 0.5215686275);
+  background-color: rgba(25, 167, 206, 0.631372549);
   font-size: 1.7rem;
   padding: 0.5rem;
   margin: 0rem 0.6rem;
@@ -286,7 +286,7 @@ nav .bg-dark .container-fluid .navbar-collapse .navbar-nav .dropdown .menu-micue
   transition: 0.3s ease-out;
 }
 .contacto-comunicate-formulario .formulario-registro-button:hover {
-  background-color: rgba(25, 167, 206, 0.5215686275);
+  background-color: rgba(25, 167, 206, 0.631372549);
   color: #ffffff;
   text-shadow: 0.15rem 0.15rem 0.1rem #000000;
   border-radius: 1rem;
@@ -404,7 +404,7 @@ nav .bg-dark .container-fluid .navbar-collapse .navbar-nav .dropdown .menu-micue
 }
 .productoscatalogo .clases-productos-click1:hover,
 .productosindex .clases-productos-click1:hover {
-  background-color: rgba(25, 167, 206, 0.5215686275);
+  background-color: rgba(25, 167, 206, 0.631372549);
   text-shadow: 0.25rem 0.15rem 0.1rem #000000;
   transform: translateY(-10%);
 }
@@ -481,7 +481,7 @@ nav .bg-dark .container-fluid .navbar-collapse .navbar-nav .dropdown .menu-micue
   transition: 0.3s ease-out;
 }
 .catalogo-seccion a:hover {
-  background-color: rgba(25, 167, 206, 0.5215686275);
+  background-color: rgba(25, 167, 206, 0.631372549);
   transform: scale(1.12, 1.12);
   text-shadow: 0.25rem 0.25rem 0.2rem #000000;
   border-radius: 2rem;
@@ -532,7 +532,7 @@ nav .bg-dark .container-fluid .navbar-collapse .navbar-nav .dropdown .menu-micue
   margin: 0rem;
   color: #ffffff;
   border-radius: 1rem;
-  background-color: rgba(25, 167, 206, 0.5215686275);
+  background-color: rgba(25, 167, 206, 0.631372549);
   text-decoration: none;
   transition: 0.3s ease-out;
 }
