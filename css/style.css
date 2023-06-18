@@ -26,88 +26,94 @@ main {
     opacity: 1;
   }
 }
-.bg-dark {
+nav {
+  height: 12rem;
+}
+nav .bg-dark {
   height: 12rem;
   background-image: url("../images/fondodenav.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
 }
-.bg-dark .container-fluid .navbar-brand {
+nav .bg-dark .container-fluid .navbar-brand {
   overflow: hidden;
   object-fit: cover;
   transition: 0.4s ease-out;
 }
-.bg-dark .container-fluid .navbar-brand:hover {
+nav .bg-dark .container-fluid .navbar-brand:hover {
   transform: scale(1.12, 1.12);
   filter: saturate(135%);
 }
-.bg-dark .container-fluid .navbar-brand img {
+nav .bg-dark .container-fluid .navbar-brand img {
   width: 11rem;
   height: auto;
   padding: 0rem 0rem 0rem 2rem;
   transition: 0.4s ease-out;
 }
-.bg-dark .container-fluid .navbar-brand img:hover {
+nav .bg-dark .container-fluid .navbar-brand img:hover {
   padding: 0rem 0rem 0rem 1rem;
 }
-.bg-dark .container-fluid .navbar-collapse .navbar-nav {
+nav .bg-dark .container-fluid .navbar-collapse .navbar-nav {
   gap: 0.5rem;
 }
-.bg-dark .container-fluid .navbar-collapse .navbar-nav .nav-item {
+nav .bg-dark .container-fluid .navbar-collapse .navbar-nav .nav-item {
   transition: 0.6s ease-out;
   padding: 0rem 0.3rem;
   border-radius: 1rem;
 }
-.bg-dark .container-fluid .navbar-collapse .navbar-nav .nav-item:hover {
+nav .bg-dark .container-fluid .navbar-collapse .navbar-nav .nav-item:hover {
   background-color: rgba(25, 167, 206, 0.5215686275);
 }
-.bg-dark .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link {
+nav .bg-dark .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link {
   font-size: 2.5rem;
   color: #19a7ce;
   transition: 0.4s ease-out;
   text-shadow: 0.1rem 0.1rem 0.1rem #ffffff;
 }
-.bg-dark .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link:hover, .bg-dark .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link:focus {
+nav .bg-dark .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link:hover, nav .bg-dark .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link:focus {
   color: #ffffff;
   text-shadow: 0.25rem 0.15rem 0.3rem #000000;
 }
-.bg-dark .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link i {
+nav .bg-dark .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link i {
   padding: 0rem 1rem;
   text-shadow: none;
 }
-.bg-dark .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link i:hover {
+nav .bg-dark .container-fluid .navbar-collapse .navbar-nav .nav-item .nav-link i:hover {
   text-shadow: 0.25rem 0.15rem 0.3rem #000000;
 }
-.bg-dark .container-fluid .navbar-collapse .navbar-nav .nav-item .active {
+nav .bg-dark .container-fluid .navbar-collapse .navbar-nav .nav-item .active {
   color: #ffffff;
   text-shadow: none;
 }
-.bg-dark .container-fluid .navbar-collapse .navbar-nav .nav-item .active:hover {
+nav .bg-dark .container-fluid .navbar-collapse .navbar-nav .nav-item .active:hover {
   text-shadow: 0.3rem 0.2rem 0.3rem #000000;
 }
-.bg-dark .container-fluid .navbar-collapse .navbar-nav .dropdown .dropdown-menu {
+nav .bg-dark .container-fluid .navbar-collapse .navbar-nav .dropdown .dropdown-menu {
   background-color: rgba(25, 167, 206, 0.5215686275);
   font-size: 1.7rem;
   padding: 0.5rem;
   margin: 0rem 0.6rem;
   text-align: center;
 }
-.bg-dark .container-fluid .navbar-collapse .navbar-nav .dropdown .dropdown-menu .dropdown-item {
+nav .bg-dark .container-fluid .navbar-collapse .navbar-nav .dropdown .dropdown-menu .dropdown-item {
   color: #ffffff;
   text-shadow: 0.25rem 0.15rem 0.3rem #000000;
   border-radius: 0.3rem;
   transition: 0.4s ease-out;
   margin: 0.3rem 0rem;
 }
-.bg-dark .container-fluid .navbar-collapse .navbar-nav .dropdown .dropdown-menu .dropdown-item:hover {
+nav .bg-dark .container-fluid .navbar-collapse .navbar-nav .dropdown .dropdown-menu .dropdown-item:hover {
   color: #000000;
   text-shadow: 0.15rem 0.1rem 0.3rem #000000;
 }
-.bg-dark .container-fluid .navbar-collapse .navbar-nav .dropdown .dropdown-menu .dropdown-divider {
+nav .bg-dark .container-fluid .navbar-collapse .navbar-nav .dropdown .dropdown-menu .dropdown-divider {
   margin: 0.1rem 0rem;
 }
-.bg-dark .container-fluid .navbar-collapse .navbar-nav .dropdown .menu-micuenta {
+nav .bg-dark .container-fluid .navbar-collapse .navbar-nav .dropdown .menu-micuenta {
   margin: 0rem 2.3rem;
 }
 

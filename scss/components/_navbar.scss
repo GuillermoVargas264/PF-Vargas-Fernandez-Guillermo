@@ -1,104 +1,111 @@
-.bg-dark {
+nav {
     height: 12rem;
-    background-image: url('../images/fondodenav.jpg');
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
 
-    .container-fluid {
-        .navbar-brand {
-            overflow: hidden;
-            object-fit: cover;
-            transition: 0.4s ease-out;
+    .bg-dark {
+        height: 12rem;
+        background-image: url('../images/fondodenav.jpg');
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        position: fixed;
+        width: 100%;
+        z-index: 2;
 
-            &:hover {
-                transform: scale(1.12, 1.12);
-                filter: saturate(135%);
-            }
-
-            img {
-                width: 11rem;
-                height: auto;
-                padding: 0rem 0rem 0rem 2rem;
+        .container-fluid {
+            .navbar-brand {
+                overflow: hidden;
+                object-fit: cover;
                 transition: 0.4s ease-out;
 
                 &:hover {
-                    padding: 0rem 0rem 0rem 1rem;
+                    transform: scale(1.12, 1.12);
+                    filter: saturate(135%);
                 }
-            }
-        }
 
-        .navbar-collapse {
-            .navbar-nav {
-                gap: 0.5rem;
-
-                .nav-item {
-                    transition: 0.6s ease-out;
-                    padding: 0rem 0.3rem;
-                    border-radius: 1rem;
+                img {
+                    width: 11rem;
+                    height: auto;
+                    padding: 0rem 0rem 0rem 2rem;
+                    transition: 0.4s ease-out;
 
                     &:hover {
-                        background-color: $light-blue-trans;
+                        padding: 0rem 0rem 0rem 1rem;
                     }
+                }
+            }
 
-                    .nav-link {
-                        font-size: 2.5rem;
-                        color: $light-blue;
-                        transition: 0.4s ease-out;
-                        text-shadow: 0.1rem 0.1rem 0.1rem $white;
+            .navbar-collapse {
+                .navbar-nav {
+                    gap: 0.5rem;
 
-                        &:hover,
-                        &:focus {
-                            color: $white;
-                            text-shadow: 0.25rem 0.15rem 0.3rem $black;
+                    .nav-item {
+                        transition: 0.6s ease-out;
+                        padding: 0rem 0.3rem;
+                        border-radius: 1rem;
+
+                        &:hover {
+                            background-color: $light-blue-trans;
                         }
 
-                        i {
-                            padding: 0rem 1rem;
+                        .nav-link {
+                            font-size: 2.5rem;
+                            color: $light-blue;
+                            transition: 0.4s ease-out;
+                            text-shadow: 0.1rem 0.1rem 0.1rem $white;
+
+                            &:hover,
+                            &:focus {
+                                color: $white;
+                                text-shadow: 0.25rem 0.15rem 0.3rem $black;
+                            }
+
+                            i {
+                                padding: 0rem 1rem;
+                                text-shadow: none;
+
+                                &:hover {
+                                    text-shadow: 0.25rem 0.15rem 0.3rem $black;
+                                }
+                            }
+                        }
+
+                        .active {
+                            color: $white;
                             text-shadow: none;
 
                             &:hover {
+                                text-shadow: 0.3rem 0.2rem 0.3rem $black;
+                            }
+                        }
+                    }
+
+                    .dropdown {
+                        .dropdown-menu {
+                            background-color: $light-blue-trans;
+                            @include letter(1.7rem, 0.5rem, 0rem 0.6rem);
+                            text-align: center;
+
+                            .dropdown-item {
+                                color: $white;
                                 text-shadow: 0.25rem 0.15rem 0.3rem $black;
+                                border-radius: 0.3rem;
+                                transition: 0.4s ease-out;
+                                margin: 0.3rem 0rem;
+
+                                &:hover {
+                                    color: $black;
+                                    text-shadow: 0.15rem 0.10rem 0.3rem $black;
+                                }
                             }
-                        }
-                    }
 
-                    .active {
-                        color: $white;
-                        text-shadow: none;
-
-                        &:hover {
-                            text-shadow: 0.3rem 0.2rem 0.3rem $black;
-                        }
-                    }
-                }
-
-                .dropdown {
-                    .dropdown-menu {
-                        background-color: $light-blue-trans;
-                        @include letter(1.7rem, 0.5rem, 0rem 0.6rem);
-                        text-align: center;
-
-                        .dropdown-item {
-                            color: $white;
-                            text-shadow: 0.25rem 0.15rem 0.3rem $black;
-                            border-radius: 0.3rem;
-                            transition: 0.4s ease-out;
-                            margin: 0.3rem 0rem;
-
-                            &:hover {
-                                color: $black;
-                                text-shadow: 0.15rem 0.10rem 0.3rem $black;
+                            .dropdown-divider {
+                                margin: 0.1rem 0rem;
                             }
                         }
 
-                        .dropdown-divider {
-                            margin: 0.1rem 0rem;
+                        .menu-micuenta {
+                            margin: 0rem 2.3rem;
                         }
-                    }
-
-                    .menu-micuenta {
-                        margin: 0rem 2.3rem;
                     }
                 }
             }
