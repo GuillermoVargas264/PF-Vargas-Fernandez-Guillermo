@@ -28,26 +28,61 @@
 //---------------------------------------------------
 //formulario para contacto y micuenta
 .contacto-comunicate-formulario {
-    text-align: center;
     color: $whitesmoke;
     font-size: 2rem;
 
     .formulario-registro {
         display: flex;
         padding: 1rem;
-        justify-content: center;
-        gap: 1rem;
+        gap: 0.2rem;
+        flex-direction: column;
+        justify-items: center;
 
         input {
             width: 40rem;
             height: 3rem;
+            border: 0.25rem solid $light-blue;
+            padding: 0rem 0.5rem;
+            transition: 0.3s ease-in-out;
 
             &:hover {
                 box-shadow: 0rem 0rem 4rem $black;
+                width: 41rem;
+                height: 3.5rem;
+            }
+        }
+
+        .form-tamañoreducido {
+            width: 16rem;
+
+            &:hover, &:focus {
+                width: 17rem;
+                height: 3.5rem;
             }
         }
 
         select {
+            width: 16rem;
+            border: 0.25rem solid $light-blue;
+            transition: 0.3s ease-in-out;
+
+            &:hover {
+                box-shadow: 0rem 0rem 4rem $black;
+            }
+
+            &:focus {
+                width: 17rem;
+                height: 3.5rem;
+            }
+        }
+
+        textarea {
+            width: 60rem;
+            height: 20rem;
+            border: 0.25rem solid $light-blue;
+            padding: 0rem 0.5rem;
+            resize: none;
+
             &:hover {
                 box-shadow: 0rem 0rem 4rem $black;
             }
@@ -57,6 +92,9 @@
             background-color: $white-trans;
             padding: 0.5rem;
             transition: 0.3s ease-out;
+            width: 20rem;
+            height: 4.5rem;
+            border: 0.2rem solid $black;
 
             &:hover {
                 background-color: $light-blue-trans;
