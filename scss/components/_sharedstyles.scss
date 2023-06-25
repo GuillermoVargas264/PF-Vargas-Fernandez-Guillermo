@@ -53,8 +53,10 @@
             }
         }
 
-        &-fecha{
-            &:hover, &:focus {
+        &-fecha {
+
+            &:hover,
+            &:focus {
                 box-shadow: 0rem 0rem 4rem $black;
                 height: 3.5rem;
             }
@@ -65,7 +67,8 @@
             border: 0.25rem solid $light-blue;
             transition: 0.3s ease-in-out;
 
-            &:hover, &:focus {
+            &:hover,
+            &:focus {
                 box-shadow: 0rem 0rem 4rem $black;
                 height: 3.5rem;
             }
