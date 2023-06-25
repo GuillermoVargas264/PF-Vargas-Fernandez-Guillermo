@@ -6,6 +6,7 @@
         'area1 area1'
         'area2 area3'
         'area4 area5'
+        '..... area5'
     ;
 
     &-caja1 {
@@ -21,7 +22,9 @@
     }
 
     &-acceso {
+        display: flex;
         grid-area: area4;
+        justify-items: start;
     }
 
     &-registro {
