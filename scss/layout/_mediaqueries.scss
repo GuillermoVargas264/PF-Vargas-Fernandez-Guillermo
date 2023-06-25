@@ -37,59 +37,6 @@
     }
 
     //---------------------------------------------------
-    //para Micuenta
-    .micuenta {
-        grid-template-areas:
-            'area1 area1'
-            'area2 area2'
-            'area4 area4'
-            'area3 area3'
-            'area5 area5'
-        ;
-        gap: 2rem;
-        padding: 1rem;
-
-        &-acceso {
-            grid-area: area4;
-            border-bottom: 0.1rem solid $white;
-            width: 100%;
-            padding: 0rem 0rem 3rem 0rem;
-        }
-
-        &-registro {
-            width: 100%;
-        }
-    }
-
-    //---------------------------------------------------
-    //para Contacto
-    .contacto {
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-areas:
-            'area1'
-            'area2'
-            'area4'
-            'area3'
-            'area5'
-            'area6'
-            'area7'
-        ;
-
-        &-redes-caja4 {
-            justify-content: center;
-            border-bottom: 0.1rem solid $white;
-            width: 100%;
-        }
-
-        &-comunicate-caja5 {
-            border-left: none;
-            border-bottom: 0.1rem solid $white;
-            padding: 3rem;
-            width: 100%;
-        }
-    }
-
-    //---------------------------------------------------
     //para footer
     .footer {
         &-redes {
@@ -320,6 +267,61 @@
     }
 
     //---------------------------------------------------
+    //para Micuenta
+    .micuenta {
+        grid-template-areas:
+            'area1 area1'
+            'area2 area2'
+            'area4 area4'
+            'area3 area3'
+            'area5 area5'
+        ;
+        gap: 2rem;
+        padding: 1rem;
+
+        &-acceso {
+            grid-area: area4;
+            border-bottom: 0.1rem solid $white;
+            width: 100%;
+            padding: 0rem 0rem 3rem 0rem;
+            justify-content: center;
+        }
+
+        &-registro {
+            width: 100%;
+        }
+    }
+
+    //---------------------------------------------------
+    //para Contacto
+    .contacto {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas:
+            'area1'
+            'area2'
+            'area4'
+            'area3'
+            'area5'
+            'area6'
+            'area7'
+        ;
+        padding: 2rem 0rem 6rem 0rem;
+
+        &-redes-caja4 {
+            justify-content: center;
+            border-bottom: 0.1rem solid $white;
+            width: 100%;
+        }
+
+        &-comunicate-caja5 {
+            border-left: none;
+            border-bottom: 0.1rem solid $white;
+            padding: 3rem;
+            width: 100%;
+        }
+    }
+
+    //---------------------------------------------------
     //para Footer
     .footer {
         grid-template-columns: repeat(2, 1fr);
@@ -415,24 +417,6 @@
     //formulario para contacto y micuenta
     .contacto-comunicate-formulario {
         font-size: 1.8rem;
-
-        .formulario-registro {
-            input {
-                width: 70%;
-            }
-        }
-
-        .formulario-registro-left {
-            justify-content: left;
-        }
-    }
-
-    //---------------------------------------------------
-    //para Contacto
-    .contacto {
-        &-comunicate-caja5 {
-            padding: 3rem 1rem;
-        }
     }
 
     //---------------------------------------------------
@@ -559,6 +543,19 @@
     //formulario para contacto y micuenta
     .contacto-comunicate-formulario {
         font-size: 1.6rem;
+
+        .formulario-registro {
+            input {
+                width: 30rem;
+            }
+
+            select {
+                width: 30rem;
+            }
+            textarea {
+                width: 30rem;
+            }
+        }
     }
 
     //---------------------------------------------------

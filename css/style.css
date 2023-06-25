@@ -305,7 +305,6 @@ nav .bg-dark .container-fluid .navbar-collapse .navbar-nav .dropdown .menu-micue
   transition: 0.3s ease-in-out;
 }
 .contacto-comunicate-formulario .formulario-registro textarea:hover {
-  width: 41rem;
   height: 21rem;
   box-shadow: 0rem 0rem 4rem #000000;
 }
@@ -632,7 +631,7 @@ nav .bg-dark .container-fluid .navbar-collapse .navbar-nav .dropdown .menu-micue
   gap: 2rem;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
-  grid-template-areas: "area1 area1" "area2 area3" "area4 area5" "area6 area5" "area7 area5";
+  grid-template-areas: "area1 area1" "area2 area3" "area4 area5" "area6 area5" "area7 area5" "..... area5";
 }
 .contacto-caja1 {
   grid-area: area1;
@@ -676,7 +675,7 @@ nav .bg-dark .container-fluid .navbar-collapse .navbar-nav .dropdown .menu-micue
 .contacto-comunicate-caja5 {
   grid-area: area5;
   border-left: 0.2rem solid #ffffff;
-  padding: 0rem 3rem;
+  padding: 0rem 2rem;
 }
 .contacto-comunicate-caja5 p {
   color: #d6d3d3;
@@ -846,35 +845,6 @@ nav .bg-dark .container-fluid .navbar-collapse .navbar-nav .dropdown .menu-micue
     gap: 1rem;
     padding: 5rem 0.5rem;
   }
-  .micuenta {
-    grid-template-areas: "area1 area1" "area2 area2" "area4 area4" "area3 area3" "area5 area5";
-    gap: 2rem;
-    padding: 1rem;
-  }
-  .micuenta-acceso {
-    grid-area: area4;
-    border-bottom: 0.1rem solid #ffffff;
-    width: 100%;
-    padding: 0rem 0rem 3rem 0rem;
-  }
-  .micuenta-registro {
-    width: 100%;
-  }
-  .contacto {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: "area1" "area2" "area4" "area3" "area5" "area6" "area7";
-  }
-  .contacto-redes-caja4 {
-    justify-content: center;
-    border-bottom: 0.1rem solid #ffffff;
-    width: 100%;
-  }
-  .contacto-comunicate-caja5 {
-    border-left: none;
-    border-bottom: 0.1rem solid #ffffff;
-    padding: 3rem;
-    width: 100%;
-  }
   .footer-redes {
     gap: 1rem;
     padding: 0.5rem;
@@ -1004,6 +974,37 @@ nav .bg-dark .container-fluid .navbar-collapse .navbar-nav .dropdown .menu-micue
   .informacion-galeria img {
     width: 85%;
   }
+  .micuenta {
+    grid-template-areas: "area1 area1" "area2 area2" "area4 area4" "area3 area3" "area5 area5";
+    gap: 2rem;
+    padding: 1rem;
+  }
+  .micuenta-acceso {
+    grid-area: area4;
+    border-bottom: 0.1rem solid #ffffff;
+    width: 100%;
+    padding: 0rem 0rem 3rem 0rem;
+    justify-content: center;
+  }
+  .micuenta-registro {
+    width: 100%;
+  }
+  .contacto {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: "area1" "area2" "area4" "area3" "area5" "area6" "area7";
+    padding: 2rem 0rem 6rem 0rem;
+  }
+  .contacto-redes-caja4 {
+    justify-content: center;
+    border-bottom: 0.1rem solid #ffffff;
+    width: 100%;
+  }
+  .contacto-comunicate-caja5 {
+    border-left: none;
+    border-bottom: 0.1rem solid #ffffff;
+    padding: 3rem;
+    width: 100%;
+  }
   .footer {
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: "area1 area3" "area2 area2" "area4 area4";
@@ -1063,15 +1064,6 @@ nav .bg-dark .container-fluid .navbar-collapse .navbar-nav .dropdown .menu-micue
   }
   .contacto-comunicate-formulario {
     font-size: 1.8rem;
-  }
-  .contacto-comunicate-formulario .formulario-registro input {
-    width: 70%;
-  }
-  .contacto-comunicate-formulario .formulario-registro-left {
-    justify-content: left;
-  }
-  .contacto-comunicate-caja5 {
-    padding: 3rem 1rem;
   }
   .footer {
     grid-template-columns: repeat(2, 1fr);
@@ -1136,6 +1128,15 @@ nav .bg-dark .container-fluid .navbar-collapse .navbar-nav .dropdown .menu-micue
   }
   .contacto-comunicate-formulario {
     font-size: 1.6rem;
+  }
+  .contacto-comunicate-formulario .formulario-registro input {
+    width: 30rem;
+  }
+  .contacto-comunicate-formulario .formulario-registro select {
+    width: 30rem;
+  }
+  .contacto-comunicate-formulario .formulario-registro textarea {
+    width: 30rem;
   }
   .contacto-redes-caja4 {
     gap: 0.5rem;
